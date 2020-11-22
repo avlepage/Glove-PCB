@@ -1,0 +1,84 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ECS-_327-12_5-34B-TR-dk_Crystals
+#
+DEF ECS-_327-12_5-34B-TR-dk_Crystals XTAL 0 40 Y Y 1 F N
+F0 "XTAL" 0 150 50 H V C CNN
+F1 "ECS-_327-12_5-34B-TR-dk_Crystals" 0 -150 50 H V C CNN
+F2 "digikey-footprints:SMD-2_3.2x1.5mm" 200 200 60 H I L CNN
+F3 "http://www.ecsxtal.com/store/pdf/ecx-31b.pdf" 200 300 60 H I L CNN
+F4 "XC1617CT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "ECS-.327-12.5-34B-TR" 200 500 60 H I L CNN "MPN"
+F6 "Crystals, Oscillators, Resonators" 200 600 60 H I L CNN "Category"
+F7 "Crystals" 200 700 60 H I L CNN "Family"
+F8 "http://www.ecsxtal.com/store/pdf/ecx-31b.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/ecs-inc/ECS-.327-12.5-34B-TR/XC1617CT-ND/1693786" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CRYSTAL 32.7680KHZ 12.5PF SMD" 200 1000 60 H I L CNN "Description"
+F11 "ECS Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -25 75 25 -75 1 1 0 F
+P 2 1 1 0 -50 75 -50 -75 N
+P 2 1 1 0 50 75 50 -75 N
+X ~ 1 -150 0 100 R 50 50 1 1 B
+X ~ 2 150 0 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# GPTS203211B-dk_Pushbutton-Switches
+#
+DEF GPTS203211B-dk_Pushbutton-Switches S 0 40 Y Y 1 F N
+F0 "S" -150 150 50 H V C CNN
+F1 "GPTS203211B-dk_Pushbutton-Switches" 0 -100 50 H V C CNN
+F2 "digikey-footprints:PushButton_12x12mm_THT_GPTS203211B" 200 200 50 H I L CNN
+F3 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" 200 300 60 H I L CNN
+F4 "CW181-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "GPTS203211B" 200 500 60 H I L CNN "MPN"
+F6 "Switches" 200 600 60 H I L CNN "Category"
+F7 "Pushbutton Switches" 200 700 60 H I L CNN "Family"
+F8 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SWITCH PUSHBUTTON SPST 1A 30V" 200 1000 60 H I L CNN "Description"
+F11 "CW Industries" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -60 0 10 0 1 0 N
+C 60 0 10 0 1 0 N
+P 2 0 1 0 -100 0 -70 0 N
+P 2 0 1 0 -70 50 70 50 N
+P 2 0 1 0 -40 110 40 110 N
+P 2 0 1 0 0 50 0 110 N
+P 2 0 1 0 100 0 70 0 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MCP73831T-2ACI_OT-dk_PMIC-Battery-Chargers
+#
+DEF MCP73831T-2ACI_OT-dk_PMIC-Battery-Chargers U 0 40 Y Y 1 F N
+F0 "U" -200 140 60 H V R CNN
+F1 "MCP73831T-2ACI_OT-dk_PMIC-Battery-Chargers" 10 -350 60 H V L CNN
+F2 "digikey-footprints:SOT-753" 200 200 60 H I L CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" 200 300 60 H I L CNN
+F4 "MCP73831T-2ACI/OTCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "MCP73831T-2ACI/OT" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "PMIC - Battery Chargers" 200 700 60 H I L CNN "Family"
+F8 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/microchip-technology/MCP73831T-2ACI-OT/MCP73831T-2ACI-OTCT-ND/1979802" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC CONTROLLR LI-ION 4.2V SOT23-5" 200 1000 60 H I L CNN "Description"
+F11 "Microchip Technology" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S 300 100 -300 -300 0 1 0 f
+X STAT 1 400 -100 100 L 50 50 1 1 O
+X VSS 2 0 -400 100 U 50 50 1 1 W
+X VBAT 3 400 0 100 L 50 50 1 1 w
+X VDD 4 0 200 100 D 50 50 1 1 W
+X PROG 5 -400 -100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
