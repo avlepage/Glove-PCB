@@ -155,16 +155,14 @@ Wire Wire Line
 $Comp
 L Device:C C7
 U 1 1 5FB6FE47
-P 1800 7000
-F 0 "C7" H 1915 7046 50  0000 L CNN
-F 1 "0.1u" H 1915 6955 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1838 6850 50  0001 C CNN
-F 3 "~" H 1800 7000 50  0001 C CNN
-	1    1800 7000
+P 800 6650
+F 0 "C7" H 915 6696 50  0000 L CNN
+F 1 "0.47u" H 915 6605 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 838 6500 50  0001 C CNN
+F 3 "~" H 800 6650 50  0001 C CNN
+	1    800  6650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 6850 1800 6800
 $Comp
 L Device:C C8
 U 1 1 5FB7A9D6
@@ -313,28 +311,6 @@ Text Label 3650 3250 0    50   ~ 0
 AIN9_0
 Text Label 3650 3150 0    50   ~ 0
 AIN8_0
-$Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 5FBC7681
-P 3450 3150
-F 0 "JP2" H 3200 3200 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 3450 3264 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3450 3150 50  0001 C CNN
-F 3 "~" H 3450 3150 50  0001 C CNN
-	1    3450 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP3
-U 1 1 5FBC8295
-P 3450 3250
-F 0 "JP3" H 3200 3300 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 3450 3364 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3450 3250 50  0001 C CNN
-F 3 "~" H 3450 3250 50  0001 C CNN
-	1    3450 3250
-	1    0    0    -1  
-$EndComp
 $Comp
 L Jumper:SolderJumper_2_Open JP4
 U 1 1 5FBC88C5
@@ -641,15 +617,13 @@ $Comp
 L Reference_Voltage:REF3030 U2
 U 1 1 5FC13A13
 P 1350 6800
-F 0 "U2" H 1121 6846 50  0000 R CNN
-F 1 "REF3030" H 1121 6755 50  0000 R CIN
+F 0 "U2" H 1550 6550 50  0000 R CNN
+F 1 "REF3030" H 1800 6450 50  0000 R CIN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1350 6350 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/ref3033.pdf" H 1450 6450 50  0001 C CIN
 	1    1350 6800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1650 6800 1800 6800
 Text Label 1700 6800 0    50   ~ 0
 AREF_3V0
 Wire Wire Line
@@ -668,7 +642,7 @@ F 3 "" H 1250 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 6400 1250 6500
+	1250 6400 1250 6450
 $Comp
 L SamacSys_Parts:MAX11128ATI+ IC3
 U 1 1 5FC6D434
@@ -1283,26 +1257,17 @@ F 3 "~" H 10250 5900 50  0001 C CNN
 	1    10250 5900
 	0    1    1    0   
 $EndComp
-Connection ~ 1250 7200
-Wire Wire Line
-	1800 7200 1250 7200
 $Comp
 L power:GND #PWR034
 U 1 1 5FB5CB7F
-P 1250 7250
-F 0 "#PWR034" H 1250 7000 50  0001 C CNN
-F 1 "GND" H 1255 7077 50  0000 C CNN
-F 2 "" H 1250 7250 50  0001 C CNN
-F 3 "" H 1250 7250 50  0001 C CNN
-	1    1250 7250
+P 1250 7150
+F 0 "#PWR034" H 1250 6900 50  0001 C CNN
+F 1 "GND" H 1255 6977 50  0000 C CNN
+F 2 "" H 1250 7150 50  0001 C CNN
+F 3 "" H 1250 7150 50  0001 C CNN
+	1    1250 7150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1250 7200 1250 7250
-Wire Wire Line
-	1250 7100 1250 7200
-Wire Wire Line
-	1800 7150 1800 7200
 Wire Wire Line
 	5300 2950 6100 2950
 Wire Wire Line
@@ -1419,15 +1384,11 @@ Text HLabel 1300 4050 0    50   Input ~ 0
 Haptic_On_1
 Wire Wire Line
 	1750 3700 1750 3800
-Wire Wire Line
-	2050 3800 1750 3800
 Connection ~ 1750 3800
 Wire Wire Line
 	1750 3800 1750 3850
 Wire Wire Line
 	1750 3200 1750 3300
-Wire Wire Line
-	2050 3300 1750 3300
 Connection ~ 1750 3300
 Wire Wire Line
 	1750 3300 1750 3400
@@ -1440,8 +1401,8 @@ P 1750 1800
 AR Path="/5FB48E27/5FEE0924" Ref="D?"  Part="1" 
 AR Path="/5FBB3CB1/5FEE0924" Ref="D8"  Part="1" 
 F 0 "D8" V 1704 1879 50  0000 L CNN
-F 1 "SS54" V 1795 1879 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 1750 1800 50  0001 C CNN
+F 1 "1N5819WS" V 1795 1879 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 1750 1800 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1903061001_MDD-Jiangsu-Yutai-Elec-SS54_C22452.pdf" H 1750 1800 50  0001 C CNN
 	1    1750 1800
 	0    1    1    0   
@@ -1453,61 +1414,103 @@ P 1750 3550
 AR Path="/5FB48E27/5FEE8F49" Ref="D?"  Part="1" 
 AR Path="/5FBB3CB1/5FEE8F49" Ref="D9"  Part="1" 
 F 0 "D9" V 1704 3629 50  0000 L CNN
-F 1 "SS54" V 1795 3629 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 1750 3550 50  0001 C CNN
+F 1 "1N5819WS" V 1795 3629 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 1750 3550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1903061001_MDD-Jiangsu-Yutai-Elec-SS54_C22452.pdf" H 1750 3550 50  0001 C CNN
 	1    1750 3550
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector:Conn_01x02_Female J?
-U 1 1 5FF0B55C
-P 2350 1800
-AR Path="/5FB48E27/5FF0B55C" Ref="J?"  Part="1" 
-AR Path="/5FBB3CB1/5FF0B55C" Ref="J5"  Part="1" 
-F 0 "J5" H 2378 1776 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 2378 1685 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02_P2.00mm_Vertical" H 2350 1800 50  0001 C CNN
-F 3 "http://www.jst.com/home8.html" H 2350 1800 50  0001 C CNN
-	1    2350 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J?
-U 1 1 5FF13E92
-P 2350 3500
-AR Path="/5FB48E27/5FF13E92" Ref="J?"  Part="1" 
-AR Path="/5FBB3CB1/5FF13E92" Ref="J6"  Part="1" 
-F 0 "J6" H 2378 3476 50  0000 L CNN
-F 1 "Conn_01x02_Female" H 2378 3385 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02_P2.00mm_Vertical" H 2350 3500 50  0001 C CNN
-F 3 "http://www.jst.com/home8.html" H 2350 3500 50  0001 C CNN
-	1    2350 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 3300 2050 3500
-Wire Wire Line
-	2050 3500 2150 3500
-Wire Wire Line
-	2150 3600 2050 3600
-Wire Wire Line
-	2050 3600 2050 3800
-Wire Wire Line
-	1750 2050 2050 2050
-Wire Wire Line
-	2050 2050 2050 1900
-Wire Wire Line
-	2050 1900 2150 1900
-Wire Wire Line
-	2150 1800 2050 1800
-Wire Wire Line
-	2050 1800 2050 1550
-Wire Wire Line
-	1750 1550 2050 1550
-Wire Wire Line
-	1800 6800 2100 6800
-Connection ~ 1800 6800
 Text HLabel 2100 6800 2    50   Output ~ 0
 AREF_3V0
+Wire Wire Line
+	1750 3300 2100 3300
+Wire Wire Line
+	1750 3800 2100 3800
+Text Label 1800 1550 0    50   ~ 0
+HapticP_0
+Text Label 1800 2050 0    50   ~ 0
+HapticN_0
+Text Label 1800 3300 0    50   ~ 0
+HapticP_1
+Text Label 1800 3800 0    50   ~ 0
+HapticN_1
+Wire Wire Line
+	1750 2050 2100 2050
+Wire Wire Line
+	1750 1550 2100 1550
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 5FCB7BF1
+P 2000 5050
+AR Path="/5FCB7BF1" Ref="J?"  Part="1" 
+AR Path="/5FBB3CB1/5FCB7BF1" Ref="J6"  Part="1" 
+F 0 "J6" H 2028 5026 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 2028 4935 50  0000 L CNN
+F 2 "Glove-PCB:22-05-7045" H 2000 5050 50  0001 C CNN
+F 3 "~" H 2000 5050 50  0001 C CNN
+	1    2000 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4950 1300 4950
+Wire Wire Line
+	1300 5250 1800 5250
+Wire Wire Line
+	1800 5150 1300 5150
+Wire Wire Line
+	1800 5050 1300 5050
+Text Label 1350 5250 0    50   ~ 0
+HapticN_1
+Text Label 1350 5150 0    50   ~ 0
+HapticP_1
+Text Label 1350 5050 0    50   ~ 0
+HapticN_0
+Text Label 1350 4950 0    50   ~ 0
+HapticP_0
+Wire Wire Line
+	1250 7100 1250 7150
+$Comp
+L power:GND #PWR0101
+U 1 1 5FC4070C
+P 800 6950
+F 0 "#PWR0101" H 800 6700 50  0001 C CNN
+F 1 "GND" H 805 6777 50  0000 C CNN
+F 2 "" H 800 6950 50  0001 C CNN
+F 3 "" H 800 6950 50  0001 C CNN
+	1    800  6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  6800 800  6950
+Wire Wire Line
+	800  6500 800  6450
+Wire Wire Line
+	800  6450 1250 6450
+Connection ~ 1250 6450
+Wire Wire Line
+	1250 6450 1250 6500
+Wire Wire Line
+	1650 6800 2100 6800
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 5FBC8295
+P 3450 3250
+F 0 "JP3" H 3200 3300 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 3450 3364 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3450 3250 50  0001 C CNN
+F 3 "~" H 3450 3250 50  0001 C CNN
+	1    3450 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 5FBC7681
+P 3450 3150
+F 0 "JP2" H 3200 3200 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 3450 3264 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 3450 3150 50  0001 C CNN
+F 3 "~" H 3450 3150 50  0001 C CNN
+	1    3450 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

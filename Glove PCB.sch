@@ -97,7 +97,7 @@ P 7400 1850
 F 0 "J1" H 7500 1350 50  0000 L CNN
 F 1 "USB_B_Micro" H 7500 1400 50  0000 L CNN
 F 2 "WARG:USB_Micro-B_10118194-0001LF" H 7550 1800 50  0001 C CNN
-F 3 "~" H 7550 1800 50  0001 C CNN
+F 3 "https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 7550 1800 50  0001 C CNN
 	1    7400 1850
 	-1   0    0    1   
 $EndComp
@@ -507,17 +507,6 @@ F27 "AREF_3V0" O L 7650 5100 50
 $EndSheet
 Text Label 7450 5350 2    50   ~ 0
 H0
-$Comp
-L Connector:Conn_01x08_Female J2
-U 1 1 5FF78DC1
-P 9950 4400
-F 0 "J2" H 9978 4376 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 9978 4285 50  0000 L CNN
-F 2 "Connectors_JST:JST_PH_B8B-PH-SM4-TB_08x2.00mm_Straight" H 9950 4400 50  0001 C CNN
-F 3 "~" H 9950 4400 50  0001 C CNN
-	1    9950 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 1750 3950 1750
 Wire Wire Line
@@ -721,23 +710,12 @@ LED0
 Text Label 3950 1750 0    50   ~ 0
 LED1
 $Comp
-L Connector:Conn_01x08_Female J3
-U 1 1 5FFD7598
-P 9950 5200
-F 0 "J3" H 9978 5176 50  0000 L CNN
-F 1 "Conn_01x08_Female" H 9978 5085 50  0000 L CNN
-F 2 "Connectors_JST:JST_PH_B8B-PH-SM4-TB_08x2.00mm_Straight" H 9950 5200 50  0001 C CNN
-F 3 "~" H 9950 5200 50  0001 C CNN
-	1    9950 5200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:TestPoint TP14
 U 1 1 5FFF8A11
 P 7300 4100
 F 0 "TP14" V 7300 4600 50  0000 C CNN
 F 1 "MISO" V 7300 4400 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7500 4100 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4100 50  0001 C CNN
 F 3 "~" H 7500 4100 50  0001 C CNN
 	1    7300 4100
 	0    -1   -1   0   
@@ -748,7 +726,7 @@ U 1 1 5FFF9BD0
 P 7300 4200
 F 0 "TP15" V 7300 4700 50  0000 C CNN
 F 1 "MOSI" V 7300 4500 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7500 4200 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4200 50  0001 C CNN
 F 3 "~" H 7500 4200 50  0001 C CNN
 	1    7300 4200
 	0    -1   -1   0   
@@ -759,7 +737,7 @@ U 1 1 5FFF9D7F
 P 7300 4300
 F 0 "TP16" V 7300 4800 50  0000 C CNN
 F 1 "SCK" V 7300 4600 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7500 4300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4300 50  0001 C CNN
 F 3 "~" H 7500 4300 50  0001 C CNN
 	1    7300 4300
 	0    -1   -1   0   
@@ -770,7 +748,7 @@ U 1 1 5FFF9FCD
 P 7300 4400
 F 0 "TP17" V 7300 4900 50  0000 C CNN
 F 1 "~CS0" V 7300 4700 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7500 4400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4400 50  0001 C CNN
 F 3 "~" H 7500 4400 50  0001 C CNN
 	1    7300 4400
 	0    -1   -1   0   
@@ -781,7 +759,7 @@ U 1 1 5FFFA131
 P 7300 4500
 F 0 "TP18" V 7300 5000 50  0000 C CNN
 F 1 "~CS1" V 7300 4800 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7500 4500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4500 50  0001 C CNN
 F 3 "~" H 7500 4500 50  0001 C CNN
 	1    7300 4500
 	0    -1   -1   0   
@@ -792,7 +770,7 @@ U 1 1 5FFFA2FA
 P 7300 4700
 F 0 "TP19" V 7300 5200 50  0000 C CNN
 F 1 "~EOC0" V 7300 5000 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7500 4700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4700 50  0001 C CNN
 F 3 "~" H 7500 4700 50  0001 C CNN
 	1    7300 4700
 	0    -1   -1   0   
@@ -803,7 +781,7 @@ U 1 1 5FFFA594
 P 7300 4800
 F 0 "TP20" V 7300 5300 50  0000 C CNN
 F 1 "EOC1" V 7300 5100 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7500 4800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4800 50  0001 C CNN
 F 3 "~" H 7500 4800 50  0001 C CNN
 	1    7300 4800
 	0    -1   -1   0   
@@ -814,7 +792,7 @@ U 1 1 5FFFA7D4
 P 7300 5350
 F 0 "TP22" V 7300 5850 50  0000 C CNN
 F 1 "H0" V 7300 5650 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7500 5350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 5350 50  0001 C CNN
 F 3 "~" H 7500 5350 50  0001 C CNN
 	1    7300 5350
 	0    -1   -1   0   
@@ -825,7 +803,7 @@ U 1 1 5FFFAB81
 P 7300 5700
 F 0 "TP23" V 7300 6200 50  0000 C CNN
 F 1 "H1" V 7300 6000 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7500 5700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 5700 50  0001 C CNN
 F 3 "~" H 7500 5700 50  0001 C CNN
 	1    7300 5700
 	0    -1   -1   0   
@@ -836,7 +814,7 @@ U 1 1 6000AAB2
 P 6350 3050
 F 0 "TP9" V 6350 3550 50  0000 C CNN
 F 1 "SWDI" V 6350 3350 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 6550 3050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 3050 50  0001 C CNN
 F 3 "~" H 6550 3050 50  0001 C CNN
 	1    6350 3050
 	0    1    1    0   
@@ -847,7 +825,7 @@ U 1 1 6000B7CE
 P 6350 3650
 F 0 "TP12" V 6350 4250 50  0000 C CNN
 F 1 "SWDCLK" V 6350 4000 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 6550 3650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 3650 50  0001 C CNN
 F 3 "~" H 6550 3650 50  0001 C CNN
 	1    6350 3650
 	0    1    1    0   
@@ -858,7 +836,7 @@ U 1 1 6000C0EB
 P 6350 3450
 F 0 "TP10" V 6350 3950 50  0000 C CNN
 F 1 "SWDIO" V 6350 3750 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 6550 3450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 3450 50  0001 C CNN
 F 3 "~" H 6550 3450 50  0001 C CNN
 	1    6350 3450
 	0    1    1    0   
@@ -869,7 +847,7 @@ U 1 1 600195A3
 P 7300 5100
 F 0 "TP21" V 7300 5600 50  0000 C CNN
 F 1 "AREF" V 7300 5400 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7500 5100 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 5100 50  0001 C CNN
 F 3 "~" H 7500 5100 50  0001 C CNN
 	1    7300 5100
 	0    -1   -1   0   
@@ -889,8 +867,6 @@ F 3 "" H 2750 3950 50  0001 C CNN
 	1    2750 3950
 	1    0    0    -1  
 $EndComp
-Text Label 3950 2550 0    50   ~ 0
-AREF
 Wire Wire Line
 	6350 2450 6000 2450
 $Comp
@@ -899,7 +875,7 @@ U 1 1 600371C6
 P 6350 3750
 F 0 "TP13" V 6350 4350 50  0000 C CNN
 F 1 "NFC2" V 6350 4100 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 6550 3750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 3750 50  0001 C CNN
 F 3 "~" H 6550 3750 50  0001 C CNN
 	1    6350 3750
 	0    1    1    0   
@@ -910,7 +886,7 @@ U 1 1 6003737B
 P 6350 3550
 F 0 "TP11" V 6350 4150 50  0000 C CNN
 F 1 "NFC1" V 6350 3900 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 6550 3550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 3550 50  0001 C CNN
 F 3 "~" H 6550 3550 50  0001 C CNN
 	1    6350 3550
 	0    1    1    0   
@@ -927,7 +903,7 @@ U 1 1 60054918
 P 2800 6600
 F 0 "TP1" V 2800 7350 50  0000 C CNN
 F 1 "VBATT_OUT" V 2800 7000 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 3000 6600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3000 6600 50  0001 C CNN
 F 3 "~" H 3000 6600 50  0001 C CNN
 	1    2800 6600
 	0    1    1    0   
@@ -938,7 +914,7 @@ U 1 1 60056BD9
 P 3950 3450
 F 0 "TP7" V 3950 3950 50  0000 C CNN
 F 1 "AIN2" V 3950 3750 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4150 3450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4150 3450 50  0001 C CNN
 F 3 "~" H 4150 3450 50  0001 C CNN
 	1    3950 3450
 	0    -1   -1   0   
@@ -949,7 +925,7 @@ U 1 1 60058B12
 P 3950 3550
 F 0 "TP8" V 3950 4050 50  0000 C CNN
 F 1 "AIN3" V 3950 3850 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4150 3550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4150 3550 50  0001 C CNN
 F 3 "~" H 4150 3550 50  0001 C CNN
 	1    3950 3550
 	0    -1   -1   0   
@@ -960,7 +936,7 @@ U 1 1 60059D4D
 P 3950 2450
 F 0 "TP2" V 3950 2950 50  0000 C CNN
 F 1 "AIN5" V 3950 2750 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4150 2450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4150 2450 50  0001 C CNN
 F 3 "~" H 4150 2450 50  0001 C CNN
 	1    3950 2450
 	0    -1   -1   0   
@@ -971,7 +947,7 @@ U 1 1 60059FB3
 P 3950 2550
 F 0 "TP3" V 3950 3050 50  0000 C CNN
 F 1 "AIN0" V 3950 2850 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4150 2550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4150 2550 50  0001 C CNN
 F 3 "~" H 4150 2550 50  0001 C CNN
 	1    3950 2550
 	0    -1   -1   0   
@@ -982,7 +958,7 @@ U 1 1 6005A21E
 P 3950 2650
 F 0 "TP4" V 3950 3150 50  0000 C CNN
 F 1 "AIN7" V 3950 2950 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4150 2650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4150 2650 50  0001 C CNN
 F 3 "~" H 4150 2650 50  0001 C CNN
 	1    3950 2650
 	0    -1   -1   0   
@@ -993,7 +969,7 @@ U 1 1 6005A421
 P 3950 2750
 F 0 "TP5" V 3950 3250 50  0000 C CNN
 F 1 "AIN4" V 3950 3050 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4150 2750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4150 2750 50  0001 C CNN
 F 3 "~" H 4150 2750 50  0001 C CNN
 	1    3950 2750
 	0    -1   -1   0   
@@ -1004,7 +980,7 @@ U 1 1 6005A8AE
 P 3950 2850
 F 0 "TP6" V 3950 3350 50  0000 C CNN
 F 1 "AIN6" V 3950 3150 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4150 2850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4150 2850 50  0001 C CNN
 F 3 "~" H 4150 2850 50  0001 C CNN
 	1    3950 2850
 	0    -1   -1   0   
@@ -1037,4 +1013,37 @@ NoConn ~ 3950 2050
 NoConn ~ 3950 1950
 NoConn ~ 3950 1850
 NoConn ~ 7100 1650
+$Comp
+L Connector:Conn_01x04_Female J3
+U 1 1 5FC920AE
+P 9950 4800
+F 0 "J3" H 9978 4776 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 9978 4685 50  0000 L CNN
+F 2 "Glove-PCB:22-05-7045" H 9950 4800 50  0001 C CNN
+F 3 "~" H 9950 4800 50  0001 C CNN
+	1    9950 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J2
+U 1 1 5FC937C0
+P 9950 4300
+F 0 "J2" H 9978 4276 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 9978 4185 50  0000 L CNN
+F 2 "Glove-PCB:22-05-7065" H 9950 4300 50  0001 C CNN
+F 3 "~" H 9950 4300 50  0001 C CNN
+	1    9950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J5
+U 1 1 5FC94656
+P 9950 5300
+F 0 "J5" H 9978 5276 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 9978 5185 50  0000 L CNN
+F 2 "Glove-PCB:22-05-7065" H 9950 5300 50  0001 C CNN
+F 3 "~" H 9950 5300 50  0001 C CNN
+	1    9950 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

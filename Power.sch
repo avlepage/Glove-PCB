@@ -195,8 +195,8 @@ L Device:D_Schottky D3
 U 1 1 5FE80D36
 P 2100 5450
 F 0 "D3" H 2100 5234 50  0000 C CNN
-F 1 "SS54" H 2100 5325 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 2100 5450 50  0001 C CNN
+F 1 "1N5819WS" H 2100 5325 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 2100 5450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1903061001_MDD-Jiangsu-Yutai-Elec-SS54_C22452.pdf" H 2100 5450 50  0001 C CNN
 	1    2100 5450
 	-1   0    0    1   
@@ -384,7 +384,7 @@ F 3 "~" H 4100 2200 50  0001 C CNN
 $EndComp
 Connection ~ 2350 5450
 Wire Wire Line
-	2350 5450 3000 5450
+	2350 5450 2450 5450
 $Comp
 L power:VDD #PWR019
 U 1 1 5FFB69EF
@@ -429,19 +429,14 @@ L Device:D_Schottky D7
 U 1 1 6003B639
 P 7400 1550
 F 0 "D7" V 7354 1629 50  0000 L CNN
-F 1 "SS54" V 7445 1629 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA_Handsoldering" H 7400 1550 50  0001 C CNN
+F 1 "1N5819WS" V 7445 1629 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323" H 7400 1550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1903061001_MDD-Jiangsu-Yutai-Elec-SS54_C22452.pdf" H 7400 1550 50  0001 C CNN
 	1    7400 1550
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7400 1300 7400 1400
-Wire Wire Line
 	6350 1850 6700 1850
-Connection ~ 7400 1400
-Wire Wire Line
-	7400 1400 7400 1450
 Wire Wire Line
 	7400 1700 7400 1850
 $Comp
@@ -500,4 +495,37 @@ F 3 "" H 7150 2350 50  0001 C CNN
 	1    7150 2350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7400 1300 7400 1400
+$Comp
+L Device:C C?
+U 1 1 5FC6DCD7
+P 2450 5650
+AR Path="/5FC6DCD7" Ref="C?"  Part="1" 
+AR Path="/5FB48E27/5FC6DCD7" Ref="C12"  Part="1" 
+F 0 "C12" H 2565 5696 50  0000 L CNN
+F 1 "10uF" H 2565 5605 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2488 5500 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MQ8NNNC/3886777\\\\" H 2450 5650 50  0001 C CNN
+	1    2450 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 5500 2450 5450
+Connection ~ 2450 5450
+Wire Wire Line
+	2450 5450 3000 5450
+$Comp
+L power:GND #PWR071
+U 1 1 5FC6FC64
+P 2450 5900
+F 0 "#PWR071" H 2450 5650 50  0001 C CNN
+F 1 "GND" H 2455 5727 50  0000 C CNN
+F 2 "" H 2450 5900 50  0001 C CNN
+F 3 "" H 2450 5900 50  0001 C CNN
+	1    2450 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 5900 2450 5800
 $EndSCHEMATC
