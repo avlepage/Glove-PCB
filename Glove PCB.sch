@@ -258,26 +258,6 @@ F 3 "" H 7500 2750 50  0001 C CNN
 	1    7500 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Glove-PCB-rescue:GPTS203211B-dk_Pushbutton-Switches S1
-U 1 1 5FB7B78A
-P 6950 2350
-F 0 "S1" H 6750 2500 50  0000 L CNN
-F 1 "GPTS203211B" H 6900 2300 50  0000 L CNN
-F 2 "SamacSys_Parts:GPTS203211B" H 7150 2550 50  0001 L CNN
-F 3 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 7150 2650 60  0001 L CNN
-F 4 "CW181-ND" H 7150 2750 60  0001 L CNN "Digi-Key_PN"
-F 5 "GPTS203211B" H 7150 2850 60  0001 L CNN "MPN"
-F 6 "Switches" H 7150 2950 60  0001 L CNN "Category"
-F 7 "Pushbutton Switches" H 7150 3050 60  0001 L CNN "Family"
-F 8 "http://switches-connectors-custom.cwind.com/Asset/GPTS203211BR2.pdf" H 7150 3150 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/cw-industries/GPTS203211B/CW181-ND/3190590" H 7150 3250 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH PUSHBUTTON SPST 1A 30V" H 7150 3350 60  0001 L CNN "Description"
-F 11 "CW Industries" H 7150 3450 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 7150 3550 60  0001 L CNN "Status"
-	1    6950 2350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7500 2750 7500 2700
 $Sheet
@@ -333,11 +313,11 @@ F 3 "https://www.digikey.com/en/products/detail/yageo/RT0603FRE0727RL/1075255" H
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6000 2350 6750 2350
+	6000 2350 6650 2350
 Wire Wire Line
 	7500 2400 7500 2350
 Wire Wire Line
-	7500 2350 7150 2350
+	7500 2350 7250 2350
 Wire Wire Line
 	6800 2050 7100 2050
 Wire Wire Line
@@ -530,8 +510,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 2750 3950 2750
 Wire Wire Line
-	4300 2850 3950 2850
-Wire Wire Line
 	4300 3050 3950 3050
 Wire Wire Line
 	3800 2950 4300 2950
@@ -705,15 +683,11 @@ Text Label 1050 1250 0    50   ~ 0
 LED0
 Text Label 1600 1250 0    50   ~ 0
 LED1
-Text Label 3950 2250 0    50   ~ 0
-LED0
-Text Label 3950 1750 0    50   ~ 0
-LED1
 $Comp
-L Connector:TestPoint TP14
+L Connector:TestPoint TP8
 U 1 1 5FFF8A11
 P 7300 4100
-F 0 "TP14" V 7300 4600 50  0000 C CNN
+F 0 "TP8" V 7300 4600 50  0000 C CNN
 F 1 "MISO" V 7300 4400 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4100 50  0001 C CNN
 F 3 "~" H 7500 4100 50  0001 C CNN
@@ -721,10 +695,10 @@ F 3 "~" H 7500 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP15
+L Connector:TestPoint TP9
 U 1 1 5FFF9BD0
 P 7300 4200
-F 0 "TP15" V 7300 4700 50  0000 C CNN
+F 0 "TP9" V 7300 4700 50  0000 C CNN
 F 1 "MOSI" V 7300 4500 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4200 50  0001 C CNN
 F 3 "~" H 7500 4200 50  0001 C CNN
@@ -732,10 +706,10 @@ F 3 "~" H 7500 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP16
+L Connector:TestPoint TP10
 U 1 1 5FFF9D7F
 P 7300 4300
-F 0 "TP16" V 7300 4800 50  0000 C CNN
+F 0 "TP10" V 7300 4800 50  0000 C CNN
 F 1 "SCK" V 7300 4600 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4300 50  0001 C CNN
 F 3 "~" H 7500 4300 50  0001 C CNN
@@ -743,10 +717,10 @@ F 3 "~" H 7500 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP17
+L Connector:TestPoint TP11
 U 1 1 5FFF9FCD
 P 7300 4400
-F 0 "TP17" V 7300 4900 50  0000 C CNN
+F 0 "TP11" V 7300 4900 50  0000 C CNN
 F 1 "~CS0" V 7300 4700 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4400 50  0001 C CNN
 F 3 "~" H 7500 4400 50  0001 C CNN
@@ -754,10 +728,10 @@ F 3 "~" H 7500 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP18
+L Connector:TestPoint TP12
 U 1 1 5FFFA131
 P 7300 4500
-F 0 "TP18" V 7300 5000 50  0000 C CNN
+F 0 "TP12" V 7300 5000 50  0000 C CNN
 F 1 "~CS1" V 7300 4800 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4500 50  0001 C CNN
 F 3 "~" H 7500 4500 50  0001 C CNN
@@ -765,10 +739,10 @@ F 3 "~" H 7500 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP19
+L Connector:TestPoint TP13
 U 1 1 5FFFA2FA
 P 7300 4700
-F 0 "TP19" V 7300 5200 50  0000 C CNN
+F 0 "TP13" V 7300 5200 50  0000 C CNN
 F 1 "~EOC0" V 7300 5000 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4700 50  0001 C CNN
 F 3 "~" H 7500 4700 50  0001 C CNN
@@ -776,10 +750,10 @@ F 3 "~" H 7500 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP20
+L Connector:TestPoint TP14
 U 1 1 5FFFA594
 P 7300 4800
-F 0 "TP20" V 7300 5300 50  0000 C CNN
+F 0 "TP14" V 7300 5300 50  0000 C CNN
 F 1 "EOC1" V 7300 5100 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4800 50  0001 C CNN
 F 3 "~" H 7500 4800 50  0001 C CNN
@@ -787,10 +761,10 @@ F 3 "~" H 7500 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP22
+L Connector:TestPoint TP1
 U 1 1 5FFFA7D4
 P 7300 5350
-F 0 "TP22" V 7300 5850 50  0000 C CNN
+F 0 "TP1" V 7300 5850 50  0000 C CNN
 F 1 "H0" V 7300 5650 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 5350 50  0001 C CNN
 F 3 "~" H 7500 5350 50  0001 C CNN
@@ -798,10 +772,10 @@ F 3 "~" H 7500 5350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP23
+L Connector:TestPoint TP2
 U 1 1 5FFFAB81
 P 7300 5700
-F 0 "TP23" V 7300 6200 50  0000 C CNN
+F 0 "TP2" V 7300 6200 50  0000 C CNN
 F 1 "H1" V 7300 6000 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 5700 50  0001 C CNN
 F 3 "~" H 7500 5700 50  0001 C CNN
@@ -809,10 +783,10 @@ F 3 "~" H 7500 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP9
+L Connector:TestPoint TP3
 U 1 1 6000AAB2
 P 6350 3050
-F 0 "TP9" V 6350 3550 50  0000 C CNN
+F 0 "TP3" V 6350 3550 50  0000 C CNN
 F 1 "SWDI" V 6350 3350 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 3050 50  0001 C CNN
 F 3 "~" H 6550 3050 50  0001 C CNN
@@ -820,10 +794,10 @@ F 3 "~" H 6550 3050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP12
+L Connector:TestPoint TP6
 U 1 1 6000B7CE
 P 6350 3650
-F 0 "TP12" V 6350 4250 50  0000 C CNN
+F 0 "TP6" V 6350 4250 50  0000 C CNN
 F 1 "SWDCLK" V 6350 4000 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 3650 50  0001 C CNN
 F 3 "~" H 6550 3650 50  0001 C CNN
@@ -831,21 +805,10 @@ F 3 "~" H 6550 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP10
-U 1 1 6000C0EB
-P 6350 3450
-F 0 "TP10" V 6350 3950 50  0000 C CNN
-F 1 "SWDIO" V 6350 3750 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 3450 50  0001 C CNN
-F 3 "~" H 6550 3450 50  0001 C CNN
-	1    6350 3450
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP21
+L Connector:TestPoint TP15
 U 1 1 600195A3
 P 7300 5100
-F 0 "TP21" V 7300 5600 50  0000 C CNN
+F 0 "TP15" V 7300 5600 50  0000 C CNN
 F 1 "AREF" V 7300 5400 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 5100 50  0001 C CNN
 F 3 "~" H 7500 5100 50  0001 C CNN
@@ -870,10 +833,10 @@ $EndComp
 Wire Wire Line
 	6350 2450 6000 2450
 $Comp
-L Connector:TestPoint TP13
+L Connector:TestPoint TP7
 U 1 1 600371C6
 P 6350 3750
-F 0 "TP13" V 6350 4350 50  0000 C CNN
+F 0 "TP7" V 6350 4350 50  0000 C CNN
 F 1 "NFC2" V 6350 4100 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 3750 50  0001 C CNN
 F 3 "~" H 6550 3750 50  0001 C CNN
@@ -881,10 +844,10 @@ F 3 "~" H 6550 3750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP11
+L Connector:TestPoint TP5
 U 1 1 6003737B
 P 6350 3550
-F 0 "TP11" V 6350 4150 50  0000 C CNN
+F 0 "TP5" V 6350 4150 50  0000 C CNN
 F 1 "NFC1" V 6350 3900 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 3550 50  0001 C CNN
 F 3 "~" H 6550 3550 50  0001 C CNN
@@ -895,96 +858,6 @@ Wire Wire Line
 	2250 6600 2800 6600
 Text Label 2350 6600 0    50   ~ 0
 VBATT_OUT
-Text Label 3950 2350 0    50   ~ 0
-VBATT_OUT
-$Comp
-L Connector:TestPoint TP1
-U 1 1 60054918
-P 2800 6600
-F 0 "TP1" V 2800 7350 50  0000 C CNN
-F 1 "VBATT_OUT" V 2800 7000 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3000 6600 50  0001 C CNN
-F 3 "~" H 3000 6600 50  0001 C CNN
-	1    2800 6600
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP7
-U 1 1 60056BD9
-P 3950 3450
-F 0 "TP7" V 3950 3950 50  0000 C CNN
-F 1 "AIN2" V 3950 3750 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4150 3450 50  0001 C CNN
-F 3 "~" H 4150 3450 50  0001 C CNN
-	1    3950 3450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP8
-U 1 1 60058B12
-P 3950 3550
-F 0 "TP8" V 3950 4050 50  0000 C CNN
-F 1 "AIN3" V 3950 3850 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4150 3550 50  0001 C CNN
-F 3 "~" H 4150 3550 50  0001 C CNN
-	1    3950 3550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP2
-U 1 1 60059D4D
-P 3950 2450
-F 0 "TP2" V 3950 2950 50  0000 C CNN
-F 1 "AIN5" V 3950 2750 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4150 2450 50  0001 C CNN
-F 3 "~" H 4150 2450 50  0001 C CNN
-	1    3950 2450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP3
-U 1 1 60059FB3
-P 3950 2550
-F 0 "TP3" V 3950 3050 50  0000 C CNN
-F 1 "AIN0" V 3950 2850 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4150 2550 50  0001 C CNN
-F 3 "~" H 4150 2550 50  0001 C CNN
-	1    3950 2550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP4
-U 1 1 6005A21E
-P 3950 2650
-F 0 "TP4" V 3950 3150 50  0000 C CNN
-F 1 "AIN7" V 3950 2950 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4150 2650 50  0001 C CNN
-F 3 "~" H 4150 2650 50  0001 C CNN
-	1    3950 2650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP5
-U 1 1 6005A421
-P 3950 2750
-F 0 "TP5" V 3950 3250 50  0000 C CNN
-F 1 "AIN4" V 3950 3050 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4150 2750 50  0001 C CNN
-F 3 "~" H 4150 2750 50  0001 C CNN
-	1    3950 2750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP6
-U 1 1 6005A8AE
-P 3950 2850
-F 0 "TP6" V 3950 3350 50  0000 C CNN
-F 1 "AIN6" V 3950 3150 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4150 2850 50  0001 C CNN
-F 3 "~" H 4150 2850 50  0001 C CNN
-	1    3950 2850
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 6350 1950
 NoConn ~ 6350 2050
 NoConn ~ 6350 2150
@@ -1046,4 +919,76 @@ F 3 "~" H 9950 5300 50  0001 C CNN
 	1    9950 5300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4300 2850 3950 2850
+NoConn ~ 3950 2850
+NoConn ~ 3950 2750
+NoConn ~ 3950 2650
+NoConn ~ 3950 2550
+NoConn ~ 3950 2450
+NoConn ~ 3950 3450
+NoConn ~ 3950 3550
+Text Label 6050 3450 0    50   ~ 0
+SWDIO
+Text Label 6100 3050 0    50   ~ 0
+SWDI
+Text Label 6100 3550 0    50   ~ 0
+NFC1
+Text Label 6050 3650 0    50   ~ 0
+SWDCLK
+Text Label 6100 3750 0    50   ~ 0
+NFC2
+$Comp
+L Connector:TestPoint TP16
+U 1 1 60054918
+P 2800 6600
+F 0 "TP16" V 2800 7350 50  0000 C CNN
+F 1 "VBATT_OUT" V 2800 7000 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3000 6600 50  0001 C CNN
+F 3 "~" H 3000 6600 50  0001 C CNN
+	1    2800 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 6000C0EB
+P 6350 3450
+F 0 "TP4" V 6350 4050 50  0000 C CNN
+F 1 "SWDIO" V 6350 3750 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 3450 50  0001 C CNN
+F 3 "~" H 6550 3450 50  0001 C CNN
+	1    6350 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 2550 6650 2550
+Wire Wire Line
+	6650 2550 6650 2350
+Connection ~ 6650 2350
+Wire Wire Line
+	6650 2350 6750 2350
+$Comp
+L Glove_PCB:SW_Push_Dual_1-2short_3-4short SW1
+U 1 1 5FDA03EE
+P 6950 2350
+F 0 "SW1" H 6950 2000 50  0000 C CNN
+F 1 "TS-1109S-B-B" H 6950 2100 50  0000 C CNN
+F 2 "Glove-PCB:Button" H 6950 2550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2003241812_XKB-Connectivity-TS-1109S-B-B_C480315.pdf" H 6950 2550 50  0001 C CNN
+	1    6950 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 2550 7250 2550
+Wire Wire Line
+	7250 2550 7250 2350
+Connection ~ 7250 2350
+Wire Wire Line
+	7250 2350 7150 2350
+Text Label 3950 2350 0    50   ~ 0
+VBATT_OUT
+Text Label 3950 2250 0    50   ~ 0
+LED0
+Text Label 3950 1750 0    50   ~ 0
+LED1
 $EndSCHEMATC
