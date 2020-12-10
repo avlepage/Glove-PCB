@@ -150,9 +150,9 @@ L Glove-PCB-rescue:ECS-_327-12_5-34B-TR-dk_Crystals XTAL1
 U 1 1 5FB62355
 P 2750 3150
 F 0 "XTAL1" V 2704 3253 50  0000 L CNN
-F 1 "ECS-_327-12_5-34B-TR" V 2795 3253 50  0000 L CNN
+F 1 "Q13FC1350000400" V 2795 3253 50  0000 L CNN
 F 2 "SamacSys_Parts:ECX-31B" H 2950 3350 60  0001 L CNN
-F 3 "http://www.ecsxtal.com/store/pdf/ecx-31b.pdf" H 2950 3450 60  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1901081604_Seiko-Epson-Q13FC1350000400_C32346.pdf" H 2950 3450 60  0001 L CNN
 F 4 "XC1617CT-ND" H 2950 3550 60  0001 L CNN "Digi-Key_PN"
 F 5 "ECS-.327-12.5-34B-TR" H 2950 3650 60  0001 L CNN "MPN"
 F 6 "Crystals, Oscillators, Resonators" H 2950 3750 60  0001 L CNN "Category"
@@ -170,7 +170,7 @@ L Device:C C2
 U 1 1 5FB65333
 P 2450 3000
 F 0 "C2" V 2400 3100 50  0000 C CNN
-F 1 "12pF" V 2400 2850 50  0000 C CNN
+F 1 "18pF" V 2400 2850 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2488 2850 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/murata-electronics/GCQ1555C1HR12WB01D/7803236" H 2450 3000 50  0001 C CNN
 	1    2450 3000
@@ -181,7 +181,7 @@ L Device:C C3
 U 1 1 5FB6639A
 P 2450 3300
 F 0 "C3" V 2400 3400 50  0000 C CNN
-F 1 "12pF" V 2400 3150 50  0000 C CNN
+F 1 "18pF" V 2400 3150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 2488 3150 50  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/murata-electronics/GCQ1555C1HR12WB01D/7803236" H 2450 3300 50  0001 C CNN
 	1    2450 3300
@@ -224,18 +224,18 @@ Connection ~ 2750 3300
 $Comp
 L Device:R R4
 U 1 1 5FB6DB5D
-P 6850 1850
-F 0 "R4" V 6750 1950 50  0000 L CNN
-F 1 "27" V 6750 1700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 6780 1850 50  0001 C CNN
-F 3 "https://www.digikey.com/en/products/detail/yageo/RT0603FRE0727RL/1075255" H 6850 1850 50  0001 C CNN
-	1    6850 1850
+P 6750 1850
+F 0 "R4" V 6650 1950 50  0000 L CNN
+F 1 "27" V 6650 1700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 6680 1850 50  0001 C CNN
+F 3 "https://www.digikey.com/en/products/detail/yageo/RT0603FRE0727RL/1075255" H 6750 1850 50  0001 C CNN
+	1    6750 1850
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6700 1750 7100 1750
 Wire Wire Line
-	7000 1850 7100 1850
+	6900 1850 7100 1850
 $Comp
 L Device:R R5
 U 1 1 5FB72EA4
@@ -288,11 +288,11 @@ Text Label 6200 2550 2    50   ~ 0
 SCK
 Text Label 6200 2650 2    50   ~ 0
 MISO
-Text Label 6200 2750 2    50   ~ 0
+Text Label 6150 2950 2    50   ~ 0
 ~CS0
 Text Label 6200 2850 2    50   ~ 0
 MOSI
-Text Label 6200 2950 2    50   ~ 0
+Text Label 6150 2750 2    50   ~ 0
 ~CS1
 Connection ~ 3800 1650
 Wire Wire Line
@@ -323,7 +323,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 1750 6400 1750
 Wire Wire Line
-	6000 1850 6700 1850
+	6000 1850 6600 1850
 Wire Wire Line
 	6000 1550 6300 1550
 Wire Wire Line
@@ -351,17 +351,6 @@ F 2 "" H 6150 3850 50  0001 C CNN
 F 3 "" H 6150 3850 50  0001 C CNN
 	1    6150 3850
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR04
-U 1 1 5FE9A7A9
-P 2150 3900
-F 0 "#PWR04" H 2150 3750 50  0001 C CNN
-F 1 "+3.3V" H 2165 4073 50  0000 C CNN
-F 2 "" H 2150 3900 50  0001 C CNN
-F 3 "" H 2150 3900 50  0001 C CNN
-	1    2150 3900
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2150 3900 2150 4250
@@ -425,8 +414,6 @@ Wire Wire Line
 	9750 5400 9400 5400
 Wire Wire Line
 	9750 5500 9400 5500
-Wire Wire Line
-	9750 5600 9400 5600
 Wire Wire Line
 	6000 2550 6250 2550
 Wire Wire Line
@@ -684,83 +671,6 @@ LED0
 Text Label 1600 1250 0    50   ~ 0
 LED1
 $Comp
-L Connector:TestPoint TP8
-U 1 1 5FFF8A11
-P 7300 4100
-F 0 "TP8" V 7300 4600 50  0000 C CNN
-F 1 "MISO" V 7300 4400 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4100 50  0001 C CNN
-F 3 "~" H 7500 4100 50  0001 C CNN
-	1    7300 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP9
-U 1 1 5FFF9BD0
-P 7300 4200
-F 0 "TP9" V 7300 4700 50  0000 C CNN
-F 1 "MOSI" V 7300 4500 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4200 50  0001 C CNN
-F 3 "~" H 7500 4200 50  0001 C CNN
-	1    7300 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP10
-U 1 1 5FFF9D7F
-P 7300 4300
-F 0 "TP10" V 7300 4800 50  0000 C CNN
-F 1 "SCK" V 7300 4600 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4300 50  0001 C CNN
-F 3 "~" H 7500 4300 50  0001 C CNN
-	1    7300 4300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP11
-U 1 1 5FFF9FCD
-P 7300 4400
-F 0 "TP11" V 7300 4900 50  0000 C CNN
-F 1 "~CS0" V 7300 4700 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4400 50  0001 C CNN
-F 3 "~" H 7500 4400 50  0001 C CNN
-	1    7300 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP12
-U 1 1 5FFFA131
-P 7300 4500
-F 0 "TP12" V 7300 5000 50  0000 C CNN
-F 1 "~CS1" V 7300 4800 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4500 50  0001 C CNN
-F 3 "~" H 7500 4500 50  0001 C CNN
-	1    7300 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP13
-U 1 1 5FFFA2FA
-P 7300 4700
-F 0 "TP13" V 7300 5200 50  0000 C CNN
-F 1 "~EOC0" V 7300 5000 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4700 50  0001 C CNN
-F 3 "~" H 7500 4700 50  0001 C CNN
-	1    7300 4700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP14
-U 1 1 5FFFA594
-P 7300 4800
-F 0 "TP14" V 7300 5300 50  0000 C CNN
-F 1 "EOC1" V 7300 5100 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 4800 50  0001 C CNN
-F 3 "~" H 7500 4800 50  0001 C CNN
-	1    7300 4800
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector:TestPoint TP1
 U 1 1 5FFFA7D4
 P 7300 5350
@@ -781,28 +691,6 @@ F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 5700 50  0001 C CNN
 F 3 "~" H 7500 5700 50  0001 C CNN
 	1    7300 5700
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP3
-U 1 1 6000AAB2
-P 6350 3050
-F 0 "TP3" V 6350 3550 50  0000 C CNN
-F 1 "SWDI" V 6350 3350 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 3050 50  0001 C CNN
-F 3 "~" H 6550 3050 50  0001 C CNN
-	1    6350 3050
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP6
-U 1 1 6000B7CE
-P 6350 3650
-F 0 "TP6" V 6350 4250 50  0000 C CNN
-F 1 "SWDCLK" V 6350 4000 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 3650 50  0001 C CNN
-F 3 "~" H 6550 3650 50  0001 C CNN
-	1    6350 3650
-	0    1    1    0   
 $EndComp
 $Comp
 L Connector:TestPoint TP15
@@ -861,8 +749,6 @@ VBATT_OUT
 NoConn ~ 6350 1950
 NoConn ~ 6350 2050
 NoConn ~ 6350 2150
-NoConn ~ 6350 2250
-NoConn ~ 6350 2450
 NoConn ~ 6350 3150
 NoConn ~ 6350 3250
 NoConn ~ 6350 3350
@@ -931,7 +817,7 @@ NoConn ~ 3950 3550
 Text Label 6050 3450 0    50   ~ 0
 SWDIO
 Text Label 6100 3050 0    50   ~ 0
-SWDI
+SWO
 Text Label 6100 3550 0    50   ~ 0
 NFC1
 Text Label 6050 3650 0    50   ~ 0
@@ -947,17 +833,6 @@ F 1 "VBATT_OUT" V 2800 7000 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3000 6600 50  0001 C CNN
 F 3 "~" H 3000 6600 50  0001 C CNN
 	1    2800 6600
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP4
-U 1 1 6000C0EB
-P 6350 3450
-F 0 "TP4" V 6350 4050 50  0000 C CNN
-F 1 "SWDIO" V 6350 3750 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6550 3450 50  0001 C CNN
-F 3 "~" H 6550 3450 50  0001 C CNN
-	1    6350 3450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -991,4 +866,127 @@ Text Label 3950 2250 0    50   ~ 0
 LED0
 Text Label 3950 1750 0    50   ~ 0
 LED1
+Wire Wire Line
+	9400 5600 9750 5600
+Text Label 6050 2350 0    50   ~ 0
+RST
+$Comp
+L Connector_Generic:Conn_02x07_Odd_Even J7
+U 1 1 5FCD1648
+P 5100 6250
+F 0 "J7" H 5150 6767 50  0000 C CNN
+F 1 "Conn_02x07_Odd_Even" H 5150 6676 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical" H 5100 6250 50  0001 C CNN
+F 3 "~" H 5100 6250 50  0001 C CNN
+	1    5100 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5950 4600 5950
+Wire Wire Line
+	4600 6550 4900 6550
+Wire Wire Line
+	4900 6450 4600 6450
+Wire Wire Line
+	4900 6350 4600 6350
+Wire Wire Line
+	4900 6250 4600 6250
+Wire Wire Line
+	4900 6150 4600 6150
+Wire Wire Line
+	4900 6050 4600 6050
+Wire Wire Line
+	5400 5950 5750 5950
+Wire Wire Line
+	5750 6550 5400 6550
+Wire Wire Line
+	5400 6450 5750 6450
+Wire Wire Line
+	5400 6350 5750 6350
+Wire Wire Line
+	5400 6250 5750 6250
+Wire Wire Line
+	5400 6150 5750 6150
+Wire Wire Line
+	5400 6050 5750 6050
+$Comp
+L power:GND #PWR0103
+U 1 1 5FD36CBB
+P 4600 6050
+F 0 "#PWR0103" H 4600 5800 50  0001 C CNN
+F 1 "GND" H 4605 5877 50  0000 C CNN
+F 2 "" H 4600 6050 50  0001 C CNN
+F 3 "" H 4600 6050 50  0001 C CNN
+	1    4600 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR04
+U 1 1 5FE9A7A9
+P 2150 3900
+F 0 "#PWR04" H 2150 3750 50  0001 C CNN
+F 1 "+3.3V" H 2165 4073 50  0000 C CNN
+F 2 "" H 2150 3900 50  0001 C CNN
+F 3 "" H 2150 3900 50  0001 C CNN
+	1    2150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5FD3FA8F
+P 4600 5900
+F 0 "#PWR0104" H 4600 5750 50  0001 C CNN
+F 1 "+3.3V" H 4615 6073 50  0000 C CNN
+F 2 "" H 4600 5900 50  0001 C CNN
+F 3 "" H 4600 5900 50  0001 C CNN
+	1    4600 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 5950 4600 5900
+Text Label 5400 5950 0    50   ~ 0
+SWDIO
+Text Label 5400 6050 0    50   ~ 0
+SWDCLK
+Text Label 5400 6150 0    50   ~ 0
+SWO
+Text Label 4700 6150 0    50   ~ 0
+RST
+Text Label 4850 6250 2    50   ~ 0
+~CS0
+Text Label 4850 6350 2    50   ~ 0
+~CS1
+Text Label 4850 6450 2    50   ~ 0
+~EOC0
+Text Label 4850 6550 2    50   ~ 0
+~EOC1
+Text Label 5600 6250 2    50   ~ 0
+MISO
+Text Label 5600 6350 2    50   ~ 0
+MOSI
+Text Label 5400 6450 0    50   ~ 0
+SCK
+$Comp
+L power:GND #PWR0105
+U 1 1 5FD49AE3
+P 5750 6550
+F 0 "#PWR0105" H 5750 6300 50  0001 C CNN
+F 1 "GND" H 5755 6377 50  0000 C CNN
+F 2 "" H 5750 6550 50  0001 C CNN
+F 3 "" H 5750 6550 50  0001 C CNN
+	1    5750 6550
+	0    -1   -1   0   
+$EndComp
+Text Label 6250 2450 2    50   ~ 0
+~EOC0
+Text Label 6250 2250 2    50   ~ 0
+~EOC1
+Text Label 6950 1850 0    50   ~ 0
+D+
+Text Label 6950 1750 0    50   ~ 0
+D-
+Text Label 6050 1750 0    50   ~ 0
+nRF_D-
+Text Label 6050 1850 0    50   ~ 0
+nRF_D+
 $EndSCHEMATC

@@ -32,16 +32,6 @@ F 9 "MAX11128ATI+" H 5050 2350 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 2650 3100 2650
-Wire Wire Line
-	3900 3050 3100 3050
-Wire Wire Line
-	3900 2950 3100 2950
-Wire Wire Line
-	3900 2850 3100 2850
-Wire Wire Line
-	3900 2750 3100 2750
-Wire Wire Line
 	4200 2050 4200 1850
 Wire Wire Line
 	4200 1850 3900 1850
@@ -242,37 +232,11 @@ $EndComp
 Wire Wire Line
 	6700 2950 6700 2850
 Text HLabel 3150 1450 0    50   Input ~ 0
-A0
-Text HLabel 3150 1550 0    50   Input ~ 0
-A1
-Text HLabel 3150 1650 0    50   Input ~ 0
-A2
-Text HLabel 3100 2650 0    50   Input ~ 0
-A3
-Text HLabel 3100 2750 0    50   Input ~ 0
-A4
-Text HLabel 3100 2850 0    50   Input ~ 0
-A5
-Text HLabel 3100 2950 0    50   Input ~ 0
-A6
-Text HLabel 3100 3050 0    50   Input ~ 0
-A7
-Text HLabel 3100 3150 0    50   Input ~ 0
-A8
-Text HLabel 3100 3250 0    50   Input ~ 0
-A9
-Text HLabel 3200 4300 0    50   Input ~ 0
-A10
-Text HLabel 3200 4400 0    50   Input ~ 0
-A11
-Text HLabel 3200 4500 0    50   Input ~ 0
-A12
-Text HLabel 3200 4600 0    50   Input ~ 0
-A13
-Text HLabel 3200 4700 0    50   Input ~ 0
-A14
-Text HLabel 3200 4800 0    50   Input ~ 0
 A15
+Text HLabel 3150 1550 0    50   Input ~ 0
+A14
+Text HLabel 3150 1650 0    50   Input ~ 0
+A13
 $Comp
 L Reference_Voltage:REF3030 U2
 U 1 1 5FC13A13
@@ -357,27 +321,13 @@ $EndComp
 Wire Wire Line
 	8300 4200 8300 4250
 Wire Wire Line
-	8800 4750 8800 4200
-Wire Wire Line
-	8700 4200 8700 4650
-Wire Wire Line
-	8600 4200 8600 4550
-Wire Wire Line
-	8500 4200 8500 4450
-Wire Wire Line
-	8400 4200 8400 4350
-Wire Wire Line
 	8400 2000 8400 1600
 Wire Wire Line
-	8400 1600 7250 1600
+	8400 1600 8100 1600
 Wire Wire Line
 	8500 2000 8500 1500
 Wire Wire Line
-	8500 1500 7250 1500
-Wire Wire Line
-	8600 2000 8600 1400
-Wire Wire Line
-	8600 1400 7250 1400
+	8600 2000 8600 1500
 Wire Wire Line
 	9750 3100 9300 3100
 Wire Wire Line
@@ -427,16 +377,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR060
 U 1 1 5FC6D472
-P 8900 4300
-F 0 "#PWR060" H 8900 4050 50  0001 C CNN
-F 1 "GND" H 8905 4127 50  0000 C CNN
-F 2 "" H 8900 4300 50  0001 C CNN
-F 3 "" H 8900 4300 50  0001 C CNN
-	1    8900 4300
+P 8900 4400
+F 0 "#PWR060" H 8900 4150 50  0001 C CNN
+F 1 "GND" H 8905 4227 50  0000 C CNN
+F 2 "" H 8900 4400 50  0001 C CNN
+F 3 "" H 8900 4400 50  0001 C CNN
+	1    8900 4400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8900 4200 8900 4300
 $Comp
 L Device:C C10
 U 1 1 5FC6D479
@@ -521,38 +469,22 @@ F 3 "" H 10800 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10800 2900 10800 2800
-Text HLabel 7250 1400 0    50   Input ~ 0
-A0
-Text HLabel 7250 1500 0    50   Input ~ 0
-A1
-Text HLabel 7250 1600 0    50   Input ~ 0
-A2
-Text HLabel 7200 2600 0    50   Input ~ 0
-A3
-Text HLabel 7200 2700 0    50   Input ~ 0
-A4
-Text HLabel 7200 2800 0    50   Input ~ 0
-A5
-Text HLabel 7200 2900 0    50   Input ~ 0
-A6
-Text HLabel 7200 3000 0    50   Input ~ 0
+Text HLabel 8100 1600 0    50   Input ~ 0
 A7
+Text HLabel 7200 2600 0    50   Input ~ 0
+A6
+Text HLabel 7200 2700 0    50   Input ~ 0
+A5
+Text HLabel 7200 2800 0    50   Input ~ 0
+A4
+Text HLabel 7200 2900 0    50   Input ~ 0
+A3
+Text HLabel 7200 3000 0    50   Input ~ 0
+A2
 Text HLabel 7200 3100 0    50   Input ~ 0
-A8
+A1
 Text HLabel 7200 3200 0    50   Input ~ 0
-A9
-Text HLabel 7300 4250 0    50   Input ~ 0
-A10
-Text HLabel 7300 4350 0    50   Input ~ 0
-A11
-Text HLabel 7300 4450 0    50   Input ~ 0
-A12
-Text HLabel 7300 4550 0    50   Input ~ 0
-A13
-Text HLabel 7300 4650 0    50   Input ~ 0
-A14
-Text HLabel 7300 4750 0    50   Input ~ 0
-A15
+A0
 Wire Wire Line
 	9300 3200 9600 3200
 Text Label 9350 3200 0    50   ~ 0
@@ -784,37 +716,9 @@ Wire Wire Line
 Wire Wire Line
 	1650 6800 2100 6800
 Wire Wire Line
-	3200 4300 4200 4300
-Wire Wire Line
-	3200 4400 4300 4400
-Wire Wire Line
-	3200 4500 4400 4500
-Wire Wire Line
-	3200 4600 4500 4600
-Wire Wire Line
-	3200 4700 4600 4700
-Wire Wire Line
-	3200 4800 4700 4800
-Wire Wire Line
-	7300 4250 8300 4250
-Wire Wire Line
-	7300 4350 8400 4350
-Wire Wire Line
-	7300 4450 8500 4450
-Wire Wire Line
-	7300 4550 8600 4550
-Wire Wire Line
-	7300 4650 8700 4650
-Wire Wire Line
-	7300 4750 8800 4750
-Wire Wire Line
 	7200 3100 8000 3100
 Wire Wire Line
 	7200 3200 8000 3200
-Wire Wire Line
-	3100 3150 3900 3150
-Wire Wire Line
-	3100 3250 3900 3250
 $Comp
 L Device:C C15
 U 1 1 5FCF7A85
@@ -941,4 +845,106 @@ F 3 "~" H 10200 3150 50  0001 C CNN
 	1    10200 3150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3100 3250 3900 3250
+Wire Wire Line
+	3100 3150 3900 3150
+Wire Wire Line
+	3200 4800 4700 4800
+Wire Wire Line
+	3200 4700 4600 4700
+Wire Wire Line
+	3200 4600 4500 4600
+Wire Wire Line
+	3200 4500 4400 4500
+Wire Wire Line
+	3200 4400 4300 4400
+Wire Wire Line
+	3200 4300 4200 4300
+Text HLabel 3200 4800 0    50   Input ~ 0
+A0
+Text HLabel 3200 4700 0    50   Input ~ 0
+A1
+Text HLabel 3200 4600 0    50   Input ~ 0
+A2
+Text HLabel 3200 4500 0    50   Input ~ 0
+A3
+Text HLabel 3200 4400 0    50   Input ~ 0
+A4
+Text HLabel 3200 4300 0    50   Input ~ 0
+A5
+Text HLabel 3100 3250 0    50   Input ~ 0
+A6
+Text HLabel 3100 3150 0    50   Input ~ 0
+A7
+Text HLabel 3100 2950 0    50   Input ~ 0
+A9
+Text HLabel 3100 2850 0    50   Input ~ 0
+A10
+Text HLabel 3100 2750 0    50   Input ~ 0
+A11
+Text HLabel 3100 2650 0    50   Input ~ 0
+A12
+Wire Wire Line
+	3900 2750 3100 2750
+Wire Wire Line
+	3900 2850 3100 2850
+Wire Wire Line
+	3900 2950 3100 2950
+Wire Wire Line
+	3900 3050 3100 3050
+Wire Wire Line
+	3900 2650 3100 2650
+Text HLabel 3100 3050 0    50   Input ~ 0
+A8
+Wire Wire Line
+	8900 4200 8900 4250
+Wire Wire Line
+	8300 4250 8400 4250
+Connection ~ 8900 4250
+Wire Wire Line
+	8900 4250 8900 4400
+Wire Wire Line
+	8400 4200 8400 4250
+Connection ~ 8400 4250
+Wire Wire Line
+	8400 4250 8500 4250
+Wire Wire Line
+	8500 4200 8500 4250
+Connection ~ 8500 4250
+Wire Wire Line
+	8500 4250 8600 4250
+Wire Wire Line
+	8600 4200 8600 4250
+Connection ~ 8600 4250
+Wire Wire Line
+	8600 4250 8700 4250
+Wire Wire Line
+	8700 4200 8700 4250
+Connection ~ 8700 4250
+Wire Wire Line
+	8700 4250 8800 4250
+Wire Wire Line
+	8800 4200 8800 4250
+Connection ~ 8800 4250
+Wire Wire Line
+	8800 4250 8900 4250
+$Comp
+L power:GND #PWR0102
+U 1 1 5FD2D6C9
+P 7550 1600
+F 0 "#PWR0102" H 7550 1350 50  0001 C CNN
+F 1 "GND" H 7555 1427 50  0000 C CNN
+F 2 "" H 7550 1600 50  0001 C CNN
+F 3 "" H 7550 1600 50  0001 C CNN
+	1    7550 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1500 7550 1500
+Wire Wire Line
+	7550 1500 7550 1600
+Wire Wire Line
+	8500 1500 8600 1500
+Connection ~ 8500 1500
 $EndSCHEMATC
