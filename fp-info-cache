@@ -1,4 +1,4 @@
-13781617829872280
+13784962605211280
 Battery
 BatteryHolder_CR1220_Keystone_500
 Keystone #500, CR1220 battery holder
@@ -66367,6 +66367,13 @@ Button
 4
 4
 Glove-PCB
+NOPB
+
+
+0
+17
+17
+Glove-PCB
 SolderJumper-2_Short_Open_RoundedPad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
 solder jumper open
@@ -66380,6 +66387,13 @@ test point wire loop bead
 0
 1
 1
+Glove-PCB
+TPS25921LDR
+
+
+0
+8
+8
 Hall-Effect_Transducers_LEM
 HTFS-Series_LEM-HallEffektCurrentTransducer
 
