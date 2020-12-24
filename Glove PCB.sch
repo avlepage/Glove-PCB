@@ -665,21 +665,6 @@ LED0
 Text Label 1600 1250 0    50   ~ 0
 LED1
 $Comp
-L Connector:TestPoint TP1
-U 1 1 5FFFA7D4
-P 7300 5350
-F 0 "TP1" V 7300 5850 50  0000 C CNN
-F 1 "H0" V 7300 5650 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 5350 50  0001 C CNN
-F 3 "~" H 7500 5350 50  0001 C CNN
-F 4 "-" H 7300 5350 50  0001 C CNN "Description"
-F 5 "-" H 7300 5350 50  0001 C CNN "LCSC"
-F 6 "-" H 7300 5350 50  0001 C CNN "MPN"
-F 7 "-" H 7300 5350 50  0001 C CNN "Manufacturer"
-	1    7300 5350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector:TestPoint TP2
 U 1 1 5FFFAB81
 P 7300 5700
@@ -692,21 +677,6 @@ F 5 "-" H 7300 5700 50  0001 C CNN "LCSC"
 F 6 "-" H 7300 5700 50  0001 C CNN "MPN"
 F 7 "-" H 7300 5700 50  0001 C CNN "Manufacturer"
 	1    7300 5700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP15
-U 1 1 600195A3
-P 7300 5100
-F 0 "TP15" V 7300 5600 50  0000 C CNN
-F 1 "AREF" V 7300 5400 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 5100 50  0001 C CNN
-F 3 "~" H 7500 5100 50  0001 C CNN
-F 4 "-" H 7300 5100 50  0001 C CNN "Description"
-F 5 "-" H 7300 5100 50  0001 C CNN "LCSC"
-F 6 "-" H 7300 5100 50  0001 C CNN "MPN"
-F 7 "-" H 7300 5100 50  0001 C CNN "Manufacturer"
-	1    7300 5100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1134,4 +1104,34 @@ Text Label 4150 3850 2    50   ~ 0
 H1
 Text Label 4150 4050 2    50   ~ 0
 H0
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5FFFA7D4
+P 7300 5350
+F 0 "TP1" V 7300 5850 50  0000 C CNN
+F 1 "H0" V 7300 5650 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 5350 50  0001 C CNN
+F 3 "~" H 7500 5350 50  0001 C CNN
+F 4 "-" H 7300 5350 50  0001 C CNN "Description"
+F 5 "-" H 7300 5350 50  0001 C CNN "LCSC"
+F 6 "-" H 7300 5350 50  0001 C CNN "MPN"
+F 7 "-" H 7300 5350 50  0001 C CNN "Manufacturer"
+	1    7300 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP15
+U 1 1 600195A3
+P 7300 5100
+F 0 "TP15" V 7300 5600 50  0000 C CNN
+F 1 "AREF" V 7300 5400 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7500 5100 50  0001 C CNN
+F 3 "~" H 7500 5100 50  0001 C CNN
+F 4 "-" H 7300 5100 50  0001 C CNN "Description"
+F 5 "-" H 7300 5100 50  0001 C CNN "LCSC"
+F 6 "-" H 7300 5100 50  0001 C CNN "MPN"
+F 7 "-" H 7300 5100 50  0001 C CNN "Manufacturer"
+	1    7300 5100
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
