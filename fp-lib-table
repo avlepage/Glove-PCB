@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Glove-PCB)(type KiCad)(uri ${KIPRJMOD}/Glove-PCB.pretty)(options "")(descr ""))
+)
