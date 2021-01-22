@@ -1,0 +1,2386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Lu\Glove-PCB\Glove PCB.sch</source>
+    <date>2020-12-24 10:48:49 AM</date>
+    <tool>Eeschema (5.1.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Glove PCB</title>
+        <company/>
+        <rev>0</rev>
+        <date>2020-11-17</date>
+        <source>Glove PCB.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Author: Annie LePage and Lucy Gong"/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power/" tstamps="/5FB48E27/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Sensors/" tstamps="/5FBB3CB1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Sensors.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MQ8NNNC/3886777\\</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 10UF 10V 0603 ROHS</field>
+        <field name="LCSC">C19702</field>
+        <field name="MPN">CL10A106KP8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB4F5A6</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <footprint>WARG:USB_Micro-B_10118194-0001LF</footprint>
+      <datasheet>https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf</datasheet>
+      <fields>
+        <field name="Description">-</field>
+        <field name="LCSC">-</field>
+        <field name="MPN">-</field>
+        <field name="Manufacturer">-</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB556A2</tstamp>
+    </comp>
+    <comp ref="XTAL1">
+      <value>Q13FC1350000400</value>
+      <footprint>Crystals:Crystal_SMD_G8-2pin_3.2x1.5mm</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1901081604_Seiko-Epson-Q13FC1350000400_C32346.pdf</datasheet>
+      <fields>
+        <field name="Category">Crystals, Oscillators, Resonators</field>
+        <field name="DK_Datasheet_Link">http://www.ecsxtal.com/store/pdf/ecx-31b.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/ecs-inc/ECS-.327-12.5-34B-TR/XC1617CT-ND/1693786</field>
+        <field name="Description">SMD CRYSTAL RESONATORS 32.768KHZ ±20PPM SMD-3215_2P ROHS</field>
+        <field name="Digi-Key_PN">XC1617CT-ND</field>
+        <field name="Family">Crystals</field>
+        <field name="LCSC">C32346</field>
+        <field name="MPN">Q13FC1350000400</field>
+        <field name="Manufacturer">ECS Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="Glove-PCB-rescue" part="ECS-_327-12_5-34B-TR-dk_Crystals" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB62355</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>18pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/murata-electronics/GCQ1555C1HR12WB01D/7803236</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 18PF 50V 0402 ROHS</field>
+        <field name="LCSC">C1549</field>
+        <field name="MPN">0402CG180J500NT</field>
+        <field name="Manufacturer">Guangdong Fenghua Advanced Tech</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB65333</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>18pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/murata-electronics/GCQ1555C1HR12WB01D/7803236</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 18PF 50V 0402 ROHS</field>
+        <field name="LCSC">C1549</field>
+        <field name="MPN">0402CG180J500NT</field>
+        <field name="Manufacturer">Guangdong Fenghua Advanced Tech</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB6639A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RT0603FRE0727RL/1075255</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 27OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C25190</field>
+        <field name="MPN">0603WAF270JT5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB6DB5D</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 10KOHMS ±1% 1/16W 0402 ROHS</field>
+        <field name="LCSC">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB72EA4</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>113990582</value>
+      <footprint>SamacSys_Parts:113990582</footprint>
+      <datasheet>http://www.raytac.com/download/index.php?index_id=24</datasheet>
+      <fields>
+        <field name="Description">Bluetooth Modules (802.15.1) MDBT50Q-1M nRF52840 Based BLE Module</field>
+        <field name="Height">2</field>
+        <field name="LCSC">-</field>
+        <field name="MPN">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Manufacturer_Name">Seeed Studio</field>
+        <field name="Manufacturer_Part_Number">113990582</field>
+        <field name="Mouser Part Number">713-113990582</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Seeed-Studio/113990582?qs=0lSvoLzn4L96en1uEjxsrg%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="113990582" description="Bluetooth Modules (802.15.1) MDBT50Q-1M nRF52840 Based BLE Module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDE68CA</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>27</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RT0603FRE0727RL/1075255</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 27OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C25190</field>
+        <field name="MPN">0603WAF270JT5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB6E6CD</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 100OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22775</field>
+        <field name="MPN">0603WAF1000T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFC21FE</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>19-213/Y2C-CQ2R2L/3T(CY)</value>
+      <footprint>LEDs:LED_0603_HandSoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf</datasheet>
+      <fields>
+        <field name="Description">LIGHT EMITTING DIODES (LED) YELLOW 585.5~591.5NM 90~180MCD@20MA TOP VIEW 0603 ROHS</field>
+        <field name="LCSC">C72038</field>
+        <field name="MPN">19-213/Y2C-CQ2R2L/3T(CY)</field>
+        <field name="Manufacturer">Everlight Elec</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFC2205</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 100OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22775</field>
+        <field name="MPN">0603WAF1000T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFC8DA9</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>19-213/Y2C-CQ2R2L/3T(CY)</value>
+      <footprint>LEDs:LED_0603_HandSoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-217-BHC-ZL1M2RY-3T_C72041.pdf</datasheet>
+      <fields>
+        <field name="Description">LIGHT EMITTING DIODES (LED) YELLOW 585.5~591.5NM 90~180MCD@20MA TOP VIEW 0603 ROHS</field>
+        <field name="LCSC">C72038</field>
+        <field name="MPN">19-213/Y2C-CQ2R2L/3T(CY)</field>
+        <field name="Manufacturer">Everlight Elec</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFCEFBF</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>H1</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">-</field>
+        <field name="LCSC">-</field>
+        <field name="MPN">-</field>
+        <field name="Manufacturer">-</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFFAB81</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x04_Female</value>
+      <footprint>Glove-PCB:22-05-7045</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">-</field>
+        <field name="LCSC">-</field>
+        <field name="MPN">-</field>
+        <field name="Manufacturer">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC920AE</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x06_Female</value>
+      <footprint>Glove-PCB:22-05-7065</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">-</field>
+        <field name="LCSC">-</field>
+        <field name="MPN">-</field>
+        <field name="Manufacturer">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC937C0</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x06_Female</value>
+      <footprint>Glove-PCB:22-05-7065</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">-</field>
+        <field name="LCSC">-</field>
+        <field name="MPN">-</field>
+        <field name="Manufacturer">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC94656</tstamp>
+    </comp>
+    <comp ref="TP16">
+      <value>VBATT_OUT</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">-</field>
+        <field name="LCSC">-</field>
+        <field name="MPN">-</field>
+        <field name="Manufacturer">-</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60054918</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>TS-1109S-B-B</value>
+      <footprint>Glove-PCB:Button</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2003241812_XKB-Connectivity-TS-1109S-B-B_C480315.pdf</datasheet>
+      <fields>
+        <field name="Description">SPST 50MA @ 12VDC VERTICAL ROUND BUTTON 160GF SMD TACTILE SWITCHES ROHS</field>
+        <field name="LCSC">C480315</field>
+        <field name="MPN">TS-1109S-B-B</field>
+        <field name="Manufacturer">XKB Connectivity</field>
+      </fields>
+      <libsource lib="Glove_PCB" part="SW_Push_Dual_1-2short_3-4short" description="Push button switch, generic, symbol, four pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDA03EE</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_02x07_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">-</field>
+        <field name="LCSC">-</field>
+        <field name="MPN">-</field>
+        <field name="Manufacturer">-</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x07_Odd_Even" description="Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCD1648</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MQ8NNNC/3886777\\</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 10UF 10V 0603 ROHS</field>
+        <field name="LCSC">C19702</field>
+        <field name="MPN">CL10A106KP8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB4832C</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>RST</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">-</field>
+        <field name="LCSC">-</field>
+        <field name="MPN">-</field>
+        <field name="Manufacturer">-</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6030F2E2</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>PGB1010402KR</value>
+      <footprint>Diode_SMD:D_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Littelfuse-PGB1010402KR_C10676.pdf</datasheet>
+      <fields>
+        <field name="Description">DIODES - ESD 0402 ROHS</field>
+        <field name="LCSC">C10676</field>
+        <field name="MPN">PGB1010402KR</field>
+        <field name="Manufacturer">Littelfuse</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60411FBA</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>PGB1010402KR</value>
+      <footprint>Diode_SMD:D_0402_1005Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Littelfuse-PGB1010402KR_C10676.pdf</datasheet>
+      <fields>
+        <field name="Description">DIODES - ESD 0402 ROHS</field>
+        <field name="LCSC">C10676</field>
+        <field name="MPN">PGB1010402KR</field>
+        <field name="Manufacturer">Littelfuse</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604126B2</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>H0</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">-</field>
+        <field name="LCSC">-</field>
+        <field name="MPN">-</field>
+        <field name="Manufacturer">-</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFFA7D4</tstamp>
+    </comp>
+    <comp ref="TP15">
+      <value>AREF</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">-</field>
+        <field name="LCSC">-</field>
+        <field name="MPN">-</field>
+        <field name="Manufacturer">-</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600195A3</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP73831T-2ACI_OT</value>
+      <footprint>digikey-footprints:SOT-753</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</datasheet>
+      <fields>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="DK_Datasheet_Link">http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/microchip-technology/MCP73831T-2ACI-OT/MCP73831T-2ACI-OTCT-ND/1979802</field>
+        <field name="Description">IC CONTROLLR LI-ION 4.2V SOT23-5</field>
+        <field name="Digi-Key_PN">MCP73831T-2ACI/OTCT-ND</field>
+        <field name="Family">PMIC - Battery Chargers</field>
+        <field name="LCSC">C424093</field>
+        <field name="MPN">MCP73831T-2ACI/OT</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="Glove-PCB-rescue" part="MCP73831T-2ACI_OT-dk_PMIC-Battery-Chargers" description=""/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FBBC2AA</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 4.7UF 16V 0603 ROHS</field>
+        <field name="LCSC">C19666</field>
+        <field name="MPN">CL10A475KO8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FB4BFE1</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>2k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/bourns-inc/CR0402AFX-2001GLF/12091352</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 2KOHMS ±1% 1/16W 0402 ROHS</field>
+        <field name="LCSC">C4109</field>
+        <field name="MPN">0402WGF2001TCE</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FB4CE98</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>270</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/vishay-dale/CRCW1206470RFKEAC/7920591</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 270OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22966</field>
+        <field name="MPN">0603WAF2700T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FB5016C</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Female</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>http://www.jst.com/home8.html</datasheet>
+      <fields>
+        <field name="Description">-</field>
+        <field name="LCSC">-</field>
+        <field name="MPN">-</field>
+        <field name="Manufacturer">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FB56977</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DMG2305</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMG2301L.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET P TRENCH 20V 4.2A 900MV @ 250UA 52 M? @ 4.2A,4.5V SOT-23(SOT-23-3) ROHS</field>
+        <field name="LCSC">C144153</field>
+        <field name="MPN">DMG2305UX-13</field>
+        <field name="Manufacturer">DIODES INCORPORATED</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMG2301L" description="-3A Id, -20V Vds, P-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FE7E627</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N5819WS</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1903061001_MDD-Jiangsu-Yutai-Elec-SS54_C22452.pdf</datasheet>
+      <fields>
+        <field name="Description">SCHOTTKY BARRIER DIODES (SBD) SOD-323 ROHS</field>
+        <field name="LCSC">C191023</field>
+        <field name="MPN">1N5819WS</field>
+        <field name="Manufacturer">Guangdong Hottech</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FE80D36</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>120</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 120OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22787</field>
+        <field name="MPN">0603WAF1200T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FE95607</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>300</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 300OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C23025</field>
+        <field name="MPN">0603WAF3000T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FE95AC3</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>19-213/Y2C-CQ2R2L/3T(CY)</value>
+      <footprint>LEDs:LED_0603_HandSoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-213-Y2C-CQ2R2L-3T-CY_C72038.pdf</datasheet>
+      <fields>
+        <field name="Description">LIGHT EMITTING DIODES (LED) YELLOW 585.5~591.5NM 90~180MCD@20MA TOP VIEW 0603 ROHS</field>
+        <field name="LCSC">C72038</field>
+        <field name="MPN">19-213/Y2C-CQ2R2L/3T(CY)</field>
+        <field name="Manufacturer">Everlight Elec</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FE9608A</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>19-213/Y2C-CQ2R2L/3T(CY)</value>
+      <footprint>LEDs:LED_0603_HandSoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-213-Y2C-CQ2R2L-3T-CY_C72038.pdf</datasheet>
+      <fields>
+        <field name="Description">LIGHT EMITTING DIODES (LED) YELLOW 585.5~591.5NM 90~180MCD@20MA TOP VIEW 0603 ROHS</field>
+        <field name="LCSC">C72038</field>
+        <field name="MPN">19-213/Y2C-CQ2R2L/3T(CY)</field>
+        <field name="Manufacturer">Everlight Elec</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FFB13F7</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>19-213/Y2C-CQ2R2L/3T(CY)</value>
+      <footprint>LEDs:LED_0603_HandSoldering</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Everlight-Elec-19-213-Y2C-CQ2R2L-3T-CY_C72038.pdf</datasheet>
+      <fields>
+        <field name="Description">LIGHT EMITTING DIODES (LED) YELLOW 585.5~591.5NM 90~180MCD@20MA TOP VIEW 0603 ROHS</field>
+        <field name="LCSC">C72038</field>
+        <field name="MPN">19-213/Y2C-CQ2R2L/3T(CY)</field>
+        <field name="Manufacturer">Everlight Elec</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FFB1A11</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 4.7UF 16V 0603 ROHS</field>
+        <field name="LCSC">C19666</field>
+        <field name="MPN">CL10A475KO8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FB4F413</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N5819WS</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1903061001_MDD-Jiangsu-Yutai-Elec-SS54_C22452.pdf</datasheet>
+      <fields>
+        <field name="Description">SCHOTTKY BARRIER DIODES (SBD) SOD-323 ROHS</field>
+        <field name="LCSC">C191023</field>
+        <field name="MPN">1N5819WS</field>
+        <field name="Manufacturer">Guangdong Hottech</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>6003B639</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 100KOHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C25803</field>
+        <field name="MPN">0603WAF1003T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>6003FAC7</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 100KOHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C25803</field>
+        <field name="MPN">0603WAF1003T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>600415D8</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A106MQ8NNNC/3886777\\</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 10UF 10V 0603 ROHS</field>
+        <field name="LCSC">C19702</field>
+        <field name="MPN">CL10A106KP8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FC6DCD7</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TPS63000</value>
+      <footprint>Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm_ThermalVias</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps63000.pdf</datasheet>
+      <fields>
+        <field name="Description">DC-DC CONVERTERS STEP-UP/STEP-DOWN ADJUSTABLE 1 1.8V 5.5V 1.2V 5.5V 1.6A (SWITCH) SON-10_3X3MM ROHS</field>
+        <field name="LCSC">C24966</field>
+        <field name="MPN">TPS63000DRCR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TPS63000" description="Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.8A Switch Current, Adjustable 1.2-5.5V Output Voltage, VSON-10"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FEAA7B5</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>2.2uH</value>
+      <footprint>Inductors_SMD:L_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">INDUCTORS (SMD) SMD,2.0X1.25X1.0MM ROHS</field>
+        <field name="LCSC">C55755</field>
+        <field name="MPN">MPH201210S2R2MT</field>
+        <field name="Manufacturer">Sunlord</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FEAB581</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1Meg</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 1MOHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22935</field>
+        <field name="MPN">0603WAF1004T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FEABE42</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>178k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 178KOHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22823</field>
+        <field name="MPN">0603WAF1783T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FEAC7A8</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 10UF 10V 0603 ROHS</field>
+        <field name="LCSC">C19702</field>
+        <field name="MPN">CL10A106KP8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FEACA85</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>33uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">33UF ±20% 10V X5R 0805 MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C342635</field>
+        <field name="MPN">C2012X5R1A336MTJ00E</field>
+        <field name="Manufacturer">TDK</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FEAD274</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 100KOHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C25803</field>
+        <field name="MPN">0603WAF1003T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FEC4802</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>130k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 130KOHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22795</field>
+        <field name="MPN">0603WAF1303T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FEC590F</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1pF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 1PF 50V 0603 ROHS</field>
+        <field name="LCSC">C23969</field>
+        <field name="MPN">CL10C010CB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Power/" tstamps="/5FB48E27/"/>
+      <tstamp>5FEC5E6B</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>MAX11128ATI+</value>
+      <footprint>SamacSys_Parts:QFN50P500X500X80-29N</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/256/MAX11120-MAX11128-217961.pdf</datasheet>
+      <fields>
+        <field name="Description">Analog to Digital Converters - ADC 12-/10-/8-Bit, 4-/8-/16-Channel, 1Msps SAR ADCs with External Reference,1MHz Full Linear Bandwidth, and</field>
+        <field name="Height">0.8</field>
+        <field name="LCSC">-</field>
+        <field name="MPN">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Manufacturer_Name">Maxim Integrated</field>
+        <field name="Manufacturer_Part_Number">MAX11128ATI+</field>
+        <field name="Mouser Part Number">700-MAX11128ATI+</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=700-MAX11128ATI%2B</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MAX11128ATI+" description="Analog to Digital Converters - ADC 12-/10-/8-Bit, 4-/8-/16-Channel, 1Msps SAR ADCs with External Reference,1MHz Full Linear Bandwidth, and"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FB519FC</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 1UF 50V 0603 ROHS</field>
+        <field name="LCSC">C15849</field>
+        <field name="MPN">CL10A105KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FB6FE47</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0603 ROHS</field>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FB7A9D6</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 10UF 10V 0603 ROHS</field>
+        <field name="LCSC">C19702</field>
+        <field name="MPN">CL10A106KP8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FB7B372</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>MAX11128ATI+</value>
+      <footprint>SamacSys_Parts:QFN50P500X500X80-29N</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/256/MAX11120-MAX11128-217961.pdf</datasheet>
+      <fields>
+        <field name="Description">Analog to Digital Converters - ADC 12-/10-/8-Bit, 4-/8-/16-Channel, 1Msps SAR ADCs with External Reference,1MHz Full Linear Bandwidth, and</field>
+        <field name="Height">0.8</field>
+        <field name="LCSC">-</field>
+        <field name="MPN">-</field>
+        <field name="Manufacturer">-</field>
+        <field name="Manufacturer_Name">Maxim Integrated</field>
+        <field name="Manufacturer_Part_Number">MAX11128ATI+</field>
+        <field name="Mouser Part Number">700-MAX11128ATI+</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=700-MAX11128ATI%2B</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MAX11128ATI+" description="Analog to Digital Converters - ADC 12-/10-/8-Bit, 4-/8-/16-Channel, 1Msps SAR ADCs with External Reference,1MHz Full Linear Bandwidth, and"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FC6D434</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0603 ROHS</field>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FC6D479</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 10UF 10V 0603 ROHS</field>
+        <field name="LCSC">C19702</field>
+        <field name="MPN">CL10A106KP8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FC6D47F</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET N TRENCH 50V 220MA 1.5V @ 1MA 3.5 ? @ 220MA,10V SOT-23(SOT-23-3) ROHS</field>
+        <field name="LCSC">C52895</field>
+        <field name="MPN">BSS138</field>
+        <field name="Manufacturer">ON Semicon</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FD69526</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <fields>
+        <field name="Description">MOSFET N TRENCH 50V 220MA 1.5V @ 1MA 3.5 ? @ 220MA,10V SOT-23(SOT-23-3) ROHS</field>
+        <field name="LCSC">C52895</field>
+        <field name="MPN">BSS138</field>
+        <field name="Manufacturer">ON Semicon</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FDDD768</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N5819WS</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1903061001_MDD-Jiangsu-Yutai-Elec-SS54_C22452.pdf</datasheet>
+      <fields>
+        <field name="Description">SCHOTTKY BARRIER DIODES (SBD) SOD-323 ROHS</field>
+        <field name="LCSC">C191023</field>
+        <field name="MPN">1N5819WS</field>
+        <field name="Manufacturer">Guangdong Hottech</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FEE0924</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N5819WS</value>
+      <footprint>Diode_SMD:D_SOD-323</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/1903061001_MDD-Jiangsu-Yutai-Elec-SS54_C22452.pdf</datasheet>
+      <fields>
+        <field name="Description">SCHOTTKY BARRIER DIODES (SBD) SOD-323 ROHS</field>
+        <field name="LCSC">C191023</field>
+        <field name="MPN">1N5819WS</field>
+        <field name="Manufacturer">Guangdong Hottech</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FEE8F49</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x04_Female</value>
+      <footprint>Glove-PCB:22-05-7045</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">-</field>
+        <field name="LCSC">-</field>
+        <field name="MPN">-</field>
+        <field name="Manufacturer">-</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FCB7BF1</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0603 ROHS</field>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FCF7A85</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 10UF 10V 0603 ROHS</field>
+        <field name="LCSC">C19702</field>
+        <field name="MPN">CL10A106KP8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FCF7A8B</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 10UF 10V 0603 ROHS</field>
+        <field name="LCSC">C19702</field>
+        <field name="MPN">CL10A106KP8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FD09154</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 100NF 50V 0603 ROHS</field>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FD0914E</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LP5907MFX-3.0/NOPB</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AP2112.pdf</datasheet>
+      <fields>
+        <field name="Description">FIXED 5.5V 3V 250MA SOT-23-5 LOW DROPOUT REGULATORS(LDO) ROHS</field>
+        <field name="LCSC">C475492</field>
+        <field name="MPN">LP5907MFX-3.0/NOPB</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="AP2112K-3.3" description="600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5 package"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FF4B18F</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">MULTILAYER CERAMIC CAPACITORS MLCC - SMD/SMT 1UF 50V 0603 ROHS</field>
+        <field name="LCSC">C15849</field>
+        <field name="MPN">CL10A105KB8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FF4CFAE</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 220OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22962</field>
+        <field name="MPN">0603WAF2200T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FFA98E5</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 220OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22962</field>
+        <field name="MPN">0603WAF2200T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FFB402C</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 220OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22962</field>
+        <field name="MPN">0603WAF2200T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FFB4036</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 220OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22962</field>
+        <field name="MPN">0603WAF2200T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FFBCE64</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 220OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22962</field>
+        <field name="MPN">0603WAF2200T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FFBCE6E</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 220OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22962</field>
+        <field name="MPN">0603WAF2200T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FFBCE78</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 220OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22962</field>
+        <field name="MPN">0603WAF2200T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FFBCE82</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 220OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22962</field>
+        <field name="MPN">0603WAF2200T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FFCE638</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 220OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22962</field>
+        <field name="MPN">0603WAF2200T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FFCE642</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 220OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22962</field>
+        <field name="MPN">0603WAF2200T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FFCE64C</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 220OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22962</field>
+        <field name="MPN">0603WAF2200T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FFCE656</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 220OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22962</field>
+        <field name="MPN">0603WAF2200T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FFD81B8</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 220OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22962</field>
+        <field name="MPN">0603WAF2200T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FFD81C2</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 220OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22962</field>
+        <field name="MPN">0603WAF2200T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FFD81CC</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>220</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">CHIP RESISTOR - SURFACE MOUNT 220OHMS ±1% 1/10W 0603 ROHS</field>
+        <field name="LCSC">C22962</field>
+        <field name="MPN">0603WAF2200T5E</field>
+        <field name="Manufacturer">Uniroyal Elec</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Sensors/" tstamps="/5FBB3CB1/"/>
+      <tstamp>5FFD81D6</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x07_Odd_Even">
+      <description>Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x07_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove-PCB-rescue" part="ECS-_327-12_5-34B-TR-dk_Crystals">
+      <fields>
+        <field name="Reference">XTAL</field>
+        <field name="Value">ECS-_327-12_5-34B-TR-dk_Crystals</field>
+        <field name="Footprint">digikey-footprints:SMD-2_3.2x1.5mm</field>
+        <field name="Datasheet">http://www.ecsxtal.com/store/pdf/ecx-31b.pdf</field>
+        <field name="Digi-Key_PN">XC1617CT-ND</field>
+        <field name="MPN">ECS-.327-12.5-34B-TR</field>
+        <field name="Category">Crystals, Oscillators, Resonators</field>
+        <field name="Family">Crystals</field>
+        <field name="DK_Datasheet_Link">http://www.ecsxtal.com/store/pdf/ecx-31b.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/ecs-inc/ECS-.327-12.5-34B-TR/XC1617CT-ND/1693786</field>
+        <field name="Description">CRYSTAL 32.7680KHZ 12.5PF SMD</field>
+        <field name="Manufacturer">ECS Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove-PCB-rescue" part="MCP73831T-2ACI_OT-dk_PMIC-Battery-Chargers">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831T-2ACI_OT-dk_PMIC-Battery-Chargers</field>
+        <field name="Footprint">digikey-footprints:SOT-753</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</field>
+        <field name="Digi-Key_PN">MCP73831T-2ACI/OTCT-ND</field>
+        <field name="MPN">MCP73831T-2ACI/OT</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">PMIC - Battery Chargers</field>
+        <field name="DK_Datasheet_Link">http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/microchip-technology/MCP73831T-2ACI-OT/MCP73831T-2ACI-OTCT-ND/1979802</field>
+        <field name="Description">IC CONTROLLR LI-ION 4.2V SOT23-5</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Glove_PCB" part="SW_Push_Dual_1-2short_3-4short">
+      <description>Push button switch, generic, symbol, four pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_Dual_1-2short_3-4short</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP2204K-1.5">
+      <aliases>
+        <alias>AP2204K-1.8</alias>
+        <alias>AP2204K-2.5</alias>
+        <alias>AP2204K-2.8</alias>
+        <alias>AP2204K-3.0</alias>
+        <alias>AP2204K-3.3</alias>
+        <alias>AP2204K-5.0</alias>
+        <alias>AP2127K-1.0</alias>
+        <alias>AP2127K-1.2</alias>
+        <alias>AP2127K-1.5</alias>
+        <alias>AP2127K-1.8</alias>
+        <alias>AP2127K-2.5</alias>
+        <alias>AP2127K-2.8</alias>
+        <alias>AP2127K-3.0</alias>
+        <alias>AP2127K-3.3</alias>
+        <alias>AP2127K-4.2</alias>
+        <alias>AP2127K-4.75</alias>
+        <alias>AP2112K-1.2</alias>
+        <alias>AP2112K-1.8</alias>
+        <alias>AP2112K-2.5</alias>
+        <alias>AP2112K-2.6</alias>
+        <alias>AP2112K-3.3</alias>
+      </aliases>
+      <description>150mA low dropout linear regulator, wide input voltage range, 1.5V fixed positive output, SOT-23-5 package</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AP2204.pdf</docs>
+      <footprints>
+        <fp>SOT?23?5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP2204K-1.5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS63000">
+      <aliases>
+        <alias>TPS63000-Q1</alias>
+        <alias>TPS63001</alias>
+        <alias>TPS63002</alias>
+      </aliases>
+      <description>Buck-Boost Converter, 1.8-5.5V Input Voltage, 1.8A Switch Current, Adjustable 1.2-5.5V Output Voltage, VSON-10</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps63000.pdf</docs>
+      <footprints>
+        <fp>Texas*DRC0010J*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS63000</field>
+        <field name="Footprint">Package_SON:Texas_DRC0010J_ThermalVias</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="power_out"/>
+        <pin num="2" name="L2" type="input"/>
+        <pin num="3" name="PGND" type="power_in"/>
+        <pin num="4" name="L1" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+        <pin num="6" name="EN" type="input"/>
+        <pin num="7" name="PS/SYNC" type="input"/>
+        <pin num="8" name="VINA" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="FB" type="input"/>
+        <pin num="11" name="PGND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="113990582">
+      <description>Bluetooth Modules (802.15.1) MDBT50Q-1M nRF52840 Based BLE Module</description>
+      <docs>http://www.raytac.com/download/index.php?index_id=24</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">113990582</field>
+        <field name="Footprint">113990582</field>
+        <field name="Datasheet">http://www.raytac.com/download/index.php?index_id=24</field>
+        <field name="Description">Bluetooth Modules (802.15.1) MDBT50Q-1M nRF52840 Based BLE Module</field>
+        <field name="Height">2</field>
+        <field name="Mouser Part Number">713-113990582</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Seeed-Studio/113990582?qs=0lSvoLzn4L96en1uEjxsrg%3D%3D</field>
+        <field name="Manufacturer_Name">Seeed Studio</field>
+        <field name="Manufacturer_Part_Number">113990582</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND_1" type="passive"/>
+        <pin num="2" name="GND_2" type="passive"/>
+        <pin num="3" name="P1.10" type="passive"/>
+        <pin num="4" name="P1.11" type="passive"/>
+        <pin num="5" name="P1.12" type="passive"/>
+        <pin num="6" name="P1.13" type="passive"/>
+        <pin num="7" name="P1.14" type="passive"/>
+        <pin num="8" name="P1.15" type="passive"/>
+        <pin num="9" name="P0.03" type="passive"/>
+        <pin num="10" name="P0.29" type="passive"/>
+        <pin num="11" name="P0.02" type="passive"/>
+        <pin num="12" name="P0.31" type="passive"/>
+        <pin num="13" name="P0.28" type="passive"/>
+        <pin num="14" name="P0.30" type="passive"/>
+        <pin num="15" name="GND_3" type="passive"/>
+        <pin num="16" name="P0.27" type="passive"/>
+        <pin num="17" name="P0.00/XL1" type="passive"/>
+        <pin num="18" name="P0.01/XL2" type="passive"/>
+        <pin num="19" name="P0.26" type="passive"/>
+        <pin num="20" name="P0.04" type="passive"/>
+        <pin num="21" name="P0.05" type="passive"/>
+        <pin num="22" name="P0.06" type="passive"/>
+        <pin num="23" name="P0.07" type="passive"/>
+        <pin num="24" name="P0.08" type="passive"/>
+        <pin num="25" name="P1.08" type="passive"/>
+        <pin num="26" name="P1.09" type="passive"/>
+        <pin num="27" name="P0.11" type="passive"/>
+        <pin num="28" name="VDD" type="passive"/>
+        <pin num="29" name="P0.12" type="passive"/>
+        <pin num="30" name="VDDH" type="passive"/>
+        <pin num="31" name="DCCH" type="passive"/>
+        <pin num="32" name="VBUS" type="passive"/>
+        <pin num="33" name="GND_4" type="passive"/>
+        <pin num="34" name="D-" type="passive"/>
+        <pin num="35" name="D+" type="passive"/>
+        <pin num="36" name="P0.14" type="passive"/>
+        <pin num="37" name="P0.13" type="passive"/>
+        <pin num="38" name="P0.16" type="passive"/>
+        <pin num="39" name="P0.15" type="passive"/>
+        <pin num="40" name="P0.18/RESET" type="passive"/>
+        <pin num="41" name="P0.17" type="passive"/>
+        <pin num="42" name="P0.19" type="passive"/>
+        <pin num="43" name="P0.21" type="passive"/>
+        <pin num="44" name="P0.20" type="passive"/>
+        <pin num="45" name="P0.23" type="passive"/>
+        <pin num="46" name="P0.22" type="passive"/>
+        <pin num="47" name="P1.00" type="passive"/>
+        <pin num="48" name="P0.24" type="passive"/>
+        <pin num="49" name="P0.25" type="passive"/>
+        <pin num="50" name="P1.02" type="passive"/>
+        <pin num="51" name="SWDIO" type="passive"/>
+        <pin num="52" name="P0.09/NFC1" type="passive"/>
+        <pin num="53" name="SWDCLK" type="passive"/>
+        <pin num="54" name="P0.10/NFC2" type="passive"/>
+        <pin num="55" name="GND_5" type="passive"/>
+        <pin num="56" name="P1.04" type="passive"/>
+        <pin num="57" name="P1.06" type="passive"/>
+        <pin num="58" name="P1.07" type="passive"/>
+        <pin num="59" name="P1.05" type="passive"/>
+        <pin num="60" name="P1.03" type="passive"/>
+        <pin num="61" name="P1.01" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="MAX11128ATI+">
+      <description>Analog to Digital Converters - ADC 12-/10-/8-Bit, 4-/8-/16-Channel, 1Msps SAR ADCs with External Reference,1MHz Full Linear Bandwidth, and</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/MAX11128ATI+.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MAX11128ATI+</field>
+        <field name="Footprint">QFN50P500X500X80-29N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/MAX11128ATI+.pdf</field>
+        <field name="Description">Analog to Digital Converters - ADC 12-/10-/8-Bit, 4-/8-/16-Channel, 1Msps SAR ADCs with External Reference,1MHz Full Linear Bandwidth, and</field>
+        <field name="Height">0.8</field>
+        <field name="Mouser Part Number">700-MAX11128ATI+</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=700-MAX11128ATI%2B</field>
+        <field name="Manufacturer_Name">Maxim Integrated</field>
+        <field name="Manufacturer_Part_Number">MAX11128ATI+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AIN3" type="passive"/>
+        <pin num="2" name="AIN4" type="passive"/>
+        <pin num="3" name="AIN5" type="passive"/>
+        <pin num="4" name="AIN6" type="passive"/>
+        <pin num="5" name="AIN7" type="passive"/>
+        <pin num="6" name="AIN8" type="passive"/>
+        <pin num="7" name="AIN9" type="passive"/>
+        <pin num="8" name="AIN10" type="passive"/>
+        <pin num="9" name="AIN11" type="passive"/>
+        <pin num="10" name="AIN12" type="passive"/>
+        <pin num="11" name="AIN13" type="passive"/>
+        <pin num="12" name="~CNVST~/AIN14" type="passive"/>
+        <pin num="13" name="REF-/AIN15" type="passive"/>
+        <pin num="14" name="GND_1" type="passive"/>
+        <pin num="15" name="REF+" type="passive"/>
+        <pin num="16" name="GND_2" type="passive"/>
+        <pin num="17" name="VDD_1" type="passive"/>
+        <pin num="18" name="VDD_2" type="passive"/>
+        <pin num="19" name="SCLK" type="passive"/>
+        <pin num="20" name="~CS" type="passive"/>
+        <pin num="21" name="DIN" type="passive"/>
+        <pin num="22" name="DGND" type="passive"/>
+        <pin num="23" name="OVDD" type="passive"/>
+        <pin num="24" name="DOUT" type="passive"/>
+        <pin num="25" name="~EOC" type="passive"/>
+        <pin num="26" name="AIN0" type="passive"/>
+        <pin num="27" name="AIN1" type="passive"/>
+        <pin num="28" name="AIN2" type="passive"/>
+        <pin num="29" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML2060</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="TP0610T">
+      <aliases>
+        <alias>VP0610T</alias>
+        <alias>BSS84</alias>
+        <alias>NTR2101P</alias>
+        <alias>BSS83P</alias>
+        <alias>Si2319CDS</alias>
+        <alias>IRLML6402</alias>
+        <alias>DMG2301L</alias>
+      </aliases>
+      <description>-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.vishay.com/docs/70209/70209.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TP0610T</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Glove-PCB-rescue">
+      <uri>C:\Users\Lu\Glove-PCB/Glove PCB-rescue.lib</uri>
+    </library>
+    <library logical="Glove_PCB">
+      <uri>C:\Users\Lu\Glove-PCB/Glove PCB.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Switching.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:/Users/Lu/Kicad-custom/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U3-Pad23)">
+      <node ref="U3" pin="23"/>
+    </net>
+    <net code="2" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="3" name="Net-(U3-Pad25)">
+      <node ref="U3" pin="25"/>
+    </net>
+    <net code="4" name="Net-(U3-Pad27)">
+      <node ref="U3" pin="27"/>
+    </net>
+    <net code="5" name="Net-(U3-Pad29)">
+      <node ref="U3" pin="29"/>
+    </net>
+    <net code="6" name="Net-(U3-Pad61)">
+      <node ref="U3" pin="61"/>
+    </net>
+    <net code="7" name="Net-(U3-Pad60)">
+      <node ref="U3" pin="60"/>
+    </net>
+    <net code="8" name="Net-(U3-Pad59)">
+      <node ref="U3" pin="59"/>
+    </net>
+    <net code="9" name="Net-(U3-Pad58)">
+      <node ref="U3" pin="58"/>
+    </net>
+    <net code="10" name="Net-(U3-Pad57)">
+      <node ref="U3" pin="57"/>
+    </net>
+    <net code="11" name="Net-(U3-Pad56)">
+      <node ref="U3" pin="56"/>
+    </net>
+    <net code="12" name="Net-(U3-Pad50)">
+      <node ref="U3" pin="50"/>
+    </net>
+    <net code="13" name="Net-(U3-Pad49)">
+      <node ref="U3" pin="49"/>
+    </net>
+    <net code="14" name="Net-(U3-Pad48)">
+      <node ref="U3" pin="48"/>
+    </net>
+    <net code="15" name="Net-(U3-Pad38)">
+      <node ref="U3" pin="38"/>
+    </net>
+    <net code="16" name="/SWDCLK">
+      <node ref="U3" pin="53"/>
+      <node ref="J7" pin="4"/>
+    </net>
+    <net code="17" name="/SWO">
+      <node ref="J7" pin="6"/>
+      <node ref="U3" pin="47"/>
+    </net>
+    <net code="18" name="/SWDIO">
+      <node ref="J7" pin="2"/>
+      <node ref="U3" pin="51"/>
+    </net>
+    <net code="19" name="Net-(U3-Pad37)">
+      <node ref="U3" pin="37"/>
+    </net>
+    <net code="20" name="Net-(U3-Pad14)">
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="21" name="/Sensors/A15">
+      <node ref="J5" pin="6"/>
+      <node ref="R16" pin="2"/>
+      <node ref="IC2" pin="26"/>
+    </net>
+    <net code="22" name="Net-(U3-Pad36)">
+      <node ref="U3" pin="36"/>
+    </net>
+    <net code="23" name="Net-(U3-Pad54)">
+      <node ref="U3" pin="54"/>
+    </net>
+    <net code="24" name="Net-(U3-Pad52)">
+      <node ref="U3" pin="52"/>
+    </net>
+    <net code="25" name="/VBATT_OUT">
+      <node ref="R11" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="U3" pin="9"/>
+      <node ref="TP16" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="26" name="/AREF">
+      <node ref="R23" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C20" pin="1"/>
+      <node ref="R29" pin="1"/>
+      <node ref="R27" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="IC3" pin="15"/>
+      <node ref="IC2" pin="15"/>
+      <node ref="TP15" pin="1"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="27" name="/LED1">
+      <node ref="R2" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="28" name="/LED0">
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="29" name="GND">
+      <node ref="C5" pin="2"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="11"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U4" pin="9"/>
+      <node ref="R13" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="IC3" pin="12"/>
+      <node ref="IC3" pin="11"/>
+      <node ref="IC3" pin="10"/>
+      <node ref="IC3" pin="9"/>
+      <node ref="IC3" pin="8"/>
+      <node ref="IC3" pin="7"/>
+      <node ref="IC2" pin="22"/>
+      <node ref="IC2" pin="29"/>
+      <node ref="IC2" pin="16"/>
+      <node ref="IC2" pin="14"/>
+      <node ref="IC2" pin="13"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="IC3" pin="13"/>
+      <node ref="IC3" pin="26"/>
+      <node ref="IC3" pin="27"/>
+      <node ref="IC3" pin="29"/>
+      <node ref="IC3" pin="16"/>
+      <node ref="J2" pin="1"/>
+      <node ref="IC3" pin="14"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="IC3" pin="22"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U3" pin="33"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D10" pin="2"/>
+      <node ref="U3" pin="15"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U3" pin="55"/>
+      <node ref="U3" pin="2"/>
+      <node ref="J7" pin="12"/>
+      <node ref="J1" pin="6"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="J7" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J7" pin="14"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="32" name="Net-(U3-Pad31)">
+      <node ref="U3" pin="31"/>
+    </net>
+    <net code="33" name="/~EOC1">
+      <node ref="J7" pin="13"/>
+      <node ref="IC3" pin="25"/>
+      <node ref="U3" pin="39"/>
+    </net>
+    <net code="34" name="/~EOC0">
+      <node ref="IC2" pin="25"/>
+      <node ref="U3" pin="41"/>
+      <node ref="J7" pin="11"/>
+    </net>
+    <net code="35" name="/H0">
+      <node ref="TP1" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="U3" pin="26"/>
+    </net>
+    <net code="36" name="/H1">
+      <node ref="TP2" pin="1"/>
+      <node ref="U3" pin="24"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="37" name="/RST">
+      <node ref="SW1" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="U3" pin="40"/>
+      <node ref="TP3" pin="1"/>
+    </net>
+    <net code="38" name="+3V3">
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="IC2" pin="23"/>
+      <node ref="IC3" pin="18"/>
+      <node ref="IC3" pin="17"/>
+      <node ref="D7" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="IC3" pin="23"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U3" pin="28"/>
+      <node ref="IC2" pin="18"/>
+      <node ref="IC2" pin="17"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="30"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="39" name="/SCK">
+      <node ref="U3" pin="42"/>
+      <node ref="IC3" pin="19"/>
+      <node ref="J7" pin="5"/>
+      <node ref="IC2" pin="19"/>
+    </net>
+    <net code="40" name="Net-(R5-Pad1)">
+      <node ref="SW1" pin="4"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="41" name="/MOSI">
+      <node ref="IC2" pin="21"/>
+      <node ref="U3" pin="45"/>
+      <node ref="IC3" pin="21"/>
+      <node ref="J7" pin="10"/>
+    </net>
+    <net code="42" name="/MISO">
+      <node ref="IC3" pin="24"/>
+      <node ref="U3" pin="43"/>
+      <node ref="IC2" pin="24"/>
+      <node ref="J7" pin="8"/>
+    </net>
+    <net code="43" name="/~CS1">
+      <node ref="IC3" pin="20"/>
+      <node ref="J7" pin="9"/>
+      <node ref="U3" pin="44"/>
+    </net>
+    <net code="44" name="/~CS0">
+      <node ref="IC2" pin="20"/>
+      <node ref="U3" pin="46"/>
+      <node ref="J7" pin="7"/>
+    </net>
+    <net code="45" name="Net-(U3-Pad16)">
+      <node ref="U3" pin="16"/>
+    </net>
+    <net code="46" name="Net-(U3-Pad22)">
+      <node ref="U3" pin="22"/>
+    </net>
+    <net code="47" name="Net-(U3-Pad21)">
+      <node ref="U3" pin="21"/>
+    </net>
+    <net code="48" name="Net-(U3-Pad20)">
+      <node ref="U3" pin="20"/>
+    </net>
+    <net code="49" name="Net-(U3-Pad19)">
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="50" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="51" name="Net-(U3-Pad12)">
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="52" name="Net-(U3-Pad11)">
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="53" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="54" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="55" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="56" name="Net-(U3-Pad5)">
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="57" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="58" name="/nRF_D-">
+      <node ref="R3" pin="1"/>
+      <node ref="U3" pin="34"/>
+    </net>
+    <net code="59" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="XTAL1" pin="2"/>
+      <node ref="U3" pin="18"/>
+    </net>
+    <net code="60" name="/D+">
+      <node ref="J1" pin="3"/>
+      <node ref="D10" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="61" name="/D-">
+      <node ref="R3" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="62" name="VBUS">
+      <node ref="D4" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U3" pin="32"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="63" name="/nRF_D+">
+      <node ref="U3" pin="35"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="64" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="XTAL1" pin="1"/>
+      <node ref="U3" pin="17"/>
+    </net>
+    <net code="65" name="/Sensors/A11">
+      <node ref="J5" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="IC2" pin="2"/>
+    </net>
+    <net code="66" name="/Sensors/A10">
+      <node ref="IC2" pin="3"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="67" name="/Sensors/A9">
+      <node ref="IC2" pin="4"/>
+      <node ref="J3" pin="4"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="68" name="/Sensors/A8">
+      <node ref="J3" pin="3"/>
+      <node ref="IC2" pin="5"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="69" name="/Sensors/A7">
+      <node ref="IC2" pin="6"/>
+      <node ref="R24" pin="2"/>
+      <node ref="IC3" pin="28"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="70" name="/Sensors/A6">
+      <node ref="R25" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="IC3" pin="1"/>
+    </net>
+    <net code="71" name="/Sensors/A5">
+      <node ref="IC3" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="IC2" pin="8"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="72" name="/Sensors/A4">
+      <node ref="IC2" pin="9"/>
+      <node ref="J2" pin="5"/>
+      <node ref="IC3" pin="3"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="73" name="/Sensors/A3">
+      <node ref="J2" pin="4"/>
+      <node ref="IC3" pin="4"/>
+      <node ref="R28" pin="2"/>
+      <node ref="IC2" pin="10"/>
+    </net>
+    <net code="74" name="/Sensors/A2">
+      <node ref="J2" pin="3"/>
+      <node ref="R29" pin="2"/>
+      <node ref="IC3" pin="5"/>
+      <node ref="IC2" pin="11"/>
+    </net>
+    <net code="75" name="/Sensors/A1">
+      <node ref="IC2" pin="12"/>
+      <node ref="R30" pin="2"/>
+      <node ref="IC3" pin="6"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="76" name="/Sensors/A12">
+      <node ref="J5" pin="3"/>
+      <node ref="R19" pin="2"/>
+      <node ref="IC2" pin="1"/>
+    </net>
+    <net code="77" name="/Sensors/A14">
+      <node ref="R17" pin="2"/>
+      <node ref="IC2" pin="27"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="78" name="/Sensors/A13">
+      <node ref="J5" pin="4"/>
+      <node ref="R18" pin="2"/>
+      <node ref="IC2" pin="28"/>
+    </net>
+    <net code="79" name="Net-(C18-Pad2)">
+      <node ref="C18" pin="2"/>
+      <node ref="U4" pin="10"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="80" name="Net-(R12-Pad1)">
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="8"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U4" pin="7"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="81" name="/Power/L2">
+      <node ref="U4" pin="2"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="82" name="/Power/L1">
+      <node ref="U4" pin="4"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="83" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="84" name="Net-(R7-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="85" name="+BATT">
+      <node ref="R10" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="86" name="Net-(R6-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="87" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="88" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="89" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="90" name="/Sensors/HapticN_0">
+      <node ref="Q2" pin="3"/>
+      <node ref="J6" pin="2"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="91" name="VDD">
+      <node ref="Q1" pin="2"/>
+      <node ref="J6" pin="3"/>
+      <node ref="R12" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="92" name="/Sensors/HapticN_1">
+      <node ref="J6" pin="4"/>
+      <node ref="D9" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+  </nets>
+</export>
